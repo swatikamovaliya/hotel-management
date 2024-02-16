@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #000;
+  color: #fff;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 2;
+  font-style: normal;
+}
+
+.single-btn a {
+	position: absolute;
+	font-size: 14px;
+	text-decoration: none;
+	padding: 15px 50px;
+	overflow: hidden;
+	transform: translate(-40%, -20%);
+	font-family: montserrat;
+	background: transparent;
+	border: 2px solid #fff;
+}
+.single-btn a:before {
+	content: '';
+	position: absolute;
+	transition: .4s ease-in-out;
+	height: 100%;
+	background: #fff;
+	top: 0;
+	left: -100%;
+	width: 100%;
+}
+.single-btn a:hover:before {
+	left: 0;
+	z-index: -1;
+}
+.single-btn a span {
+	color: #fff;
+	transition: .4s ease-in-out;
+	z-index: 1;
+}
+.single-btn a:hover span {
+	color: #344360;
+}
