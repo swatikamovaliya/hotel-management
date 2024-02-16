@@ -1,5 +1,11 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import { SignInButton, SignOutButton } from "@clerk/clerk-react";
+import {
+  SignInButton,
+  SignOutButton,
+  SignedIn,
+  SignedOut,
+  UserButton,
+} from "@clerk/clerk-react";
 import { Rating } from "@mui/material";
 import Footer from "../components/Footer";
 
@@ -22,12 +28,16 @@ const Home = () => {
               <h1>Help</h1>
               <h1>Rooms</h1>
               <div className="flex ">
-                <div className="px-3 mr-2 border rounded-md">
-                  <SignInButton mode={"modal"} />
-                </div>
-                <div className="px-3 border rounded-md">
-                  <SignOutButton />
-                </div>
+                <SignedOut>
+                  <div className="px-3 mr-2 border rounded-md">
+                    <SignInButton mode={"modal"} />
+                  </div>
+                </SignedOut>
+
+                <SignedIn>
+                  {/* Mount the UserButton component */}
+                  <UserButton />
+                </SignedIn>
               </div>
             </div>
           </div>
@@ -227,7 +237,6 @@ const Home = () => {
 
 export default Home;
 
-
 function BedIcon(props: any) {
   return (
     <svg
@@ -247,9 +256,8 @@ function BedIcon(props: any) {
       <path d="M2 17h20" />
       <path d="M6 8v9" />
     </svg>
-  )
+  );
 }
-
 
 function CarIcon(props: any) {
   return (
@@ -270,9 +278,8 @@ function CarIcon(props: any) {
       <path d="M9 17h6" />
       <circle cx="17" cy="17" r="2" />
     </svg>
-  )
+  );
 }
-
 
 function ClockIcon(props: any) {
   return (
@@ -291,9 +298,8 @@ function ClockIcon(props: any) {
       <circle cx="12" cy="12" r="10" />
       <polyline points="12 6 12 12 16 14" />
     </svg>
-  )
+  );
 }
-
 
 function CoffeeIcon(props: any) {
   return (
@@ -315,9 +321,8 @@ function CoffeeIcon(props: any) {
       <line x1="10" x2="10" y1="2" y2="4" />
       <line x1="14" x2="14" y1="2" y2="4" />
     </svg>
-  )
+  );
 }
-
 
 function FishIcon(props: any) {
   return (
@@ -340,9 +345,8 @@ function FishIcon(props: any) {
       <path d="M10.46 7.26C10.2 5.88 9.17 4.24 8 3h5.8a2 2 0 0 1 1.98 1.67l.23 1.4" />
       <path d="m16.01 17.93-.23 1.4A2 2 0 0 1 13.8 21H9.5a5.96 5.96 0 0 0 1.49-3.98" />
     </svg>
-  )
+  );
 }
-
 
 function WifiIcon(props: any) {
   return (
@@ -363,5 +367,5 @@ function WifiIcon(props: any) {
       <path d="M2 8.82a15 15 0 0 1 20 0" />
       <line x1="12" x2="12.01" y1="20" y2="20" />
     </svg>
-  )
+  );
 }
