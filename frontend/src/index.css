@@ -3,13 +3,29 @@
 @tailwind utilities;
 
 body {
-  background: #000;
+  background: #222222;
   color: #fff;
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
+  overflow-x: hidden;
+  box-sizing: border-box;
   font-weight: 2;
   font-style: normal;
 }
+
+*::-webkit-scrollbar-track {
+    background-color: #222222;
+}
+
+*::-webkit-scrollbar {
+    width: 7px;
+}
+
+*::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #27272a;
+}
+
 
 .single-btn a {
 	position: absolute;

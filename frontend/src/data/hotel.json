@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "STANDARD ROOM – ONE KING BED",
+    "rating": 4.5,
+    "charges": 100,
+    "img": "https://demo.goodlayers.com/hotelmaster/dark/wp-content/uploads/2015/03/photodune-2676493-suite-bed-room-with-balcony-of-a-luxury-resort-m-400x300.jpg",
+    "description": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient...",
+    "uiq": "unique_id_101"
+  },
+  {
+    "id": 2,
+    "name": "JUNIOR SUITE – ONE SINGLE BED",
+    "rating": 4.2,
+    "charges": 120,
+    "img": "https://demo.goodlayers.com/hotelmaster/dark/wp-content/uploads/2015/03/photodune-3973259-hotel-room-m-400x300.jpg",
+    "description": "A cozy room with modern amenities.",
+    "uiq": "unique_id_102"
+  },
+  {
+    "id": 3,
+    "name": "JUNIOR SUITE – ONE SINGLE BED",
+    "rating": 4.2,
+    "charges": 120,
+    "img": "https://demo.goodlayers.com/hotelmaster/dark/wp-content/uploads/2015/03/photodune-2681114-penthouse-room-on-a-sunny-day-m-400x300.jpg",
+    "description": "A cozy room with modern amenities.",
+    "uiq": "unique_id_102"
+  }
+]

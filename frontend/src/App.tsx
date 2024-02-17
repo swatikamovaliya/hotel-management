@@ -1,31 +1,17 @@
-// import {
-//   SignOutButton,
-//   SignInButton,
-//   SignedIn,
-//   SignedOut,
-// } from "@clerk/clerk-react";
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Home from "./pages/Home";
+import Book from "./pages/Book";
 
 function App() {
   return (
     <div>
-      {/* <SignedOut>
-        <SignInButton mode={"modal"} />
-        <p>
-          This content is public. Only signed out users can see the SignInButton
-          above this text.
-        </p>
-      </SignedOut>
-      <SignedIn>
-        <SignOutButton />
-        <p>
-          This content is private. Only signed in users can see the
-          SignOutButton above this text.
-        </p>
-      </SignedIn> */}
-      {/* <h1 className="text-3xl font-bold underline">Hello world!</h1> */}
-      <Home />
-     
+      <Router>
+        <div></div>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/book" element={<Book />} />
+        </Routes>
+      </Router> 
     </div>
   );
 }
