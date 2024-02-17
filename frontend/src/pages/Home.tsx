@@ -1,46 +1,16 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import {
-  SignInButton,
-  SignOutButton,
-  SignedIn,
-  SignedOut,
-  UserButton,
-} from "@clerk/clerk-react";
 import { Rating } from "@mui/material";
 import Footer from "../components/Footer";
+import { Link } from "react-router-dom";
+import Navbar from "../components/Navbar";
 
 const Home = () => {
   return (
     <>
       {/* section 1  nav, fist look*/}
-      <div className="grid overflow-x-hidden h-screen  w-full bg-[url('/slider/2.jpg')] bg-no-repeat bg-cover bg-center bg-fixed">
+      <div className="grid overflow-x-hidden h-screen w-full bg-[url('/slider/2.jpg')] bg-no-repeat bg-cover bg-center bg-fixed">
         <div>
-          <div className="sticky top-0 flex justify-between w-screen px-40 mt-2">
-            {/* <div className="grid place-items-center">
-              <h1 className="text-4xl text-[#a7824f]">THE CAPPA</h1>
-              <p className="text-xs">Luxury Hotel</p>
-            </div> */}
-            <img src="/logo.png" className="w-40" alt="logo" />
-            <div className="flex items-start gap-16">
-              <h1>Home</h1>
-              <h1>About </h1>
-              <h1>Contact us</h1>
-              <h1>Help</h1>
-              <h1>Rooms</h1>
-              <div className="flex ">
-                <SignedOut>
-                  <div className="px-3 mr-2 border rounded-md">
-                    <SignInButton mode={"modal"} />
-                  </div>
-                </SignedOut>
-
-                <SignedIn>
-                  {/* Mount the UserButton component */}
-                  <UserButton />
-                </SignedIn>
-              </div>
-            </div>
-          </div>
+          <Navbar />
           <div className="flex items-center justify-center w-full mt-40">
             <div className="grid place-items-center">
               <div>
@@ -54,17 +24,22 @@ const Home = () => {
                   ENJOY A LUXURY EXPERINCE
                 </h1>
               </div>
-              <div className="p-3 m-2 single-btn">
-                <a href="#">
-                  <span>Book Now</span>
-                </a>
-              </div>
+              <Link to={"/book"}>
+                <div className="p-3 m-2 single-btn">
+                  <a href="#">
+                    <span>Book Now</span>
+                  </a>
+                </div>
+              </Link>
             </div>
           </div>
         </div>
       </div>
       {/* section 2  Enjoy a Luxury Experience*/}
-      <div className="flex items-center justify-center h-screen bg-[#222222]">
+      <div
+        id="about"
+        className="flex items-center justify-center h-screen bg-[#222222]"
+      >
         <div className="w-[600px]">
           <div>
             <Rating name="simple-controlled" value={5} />
@@ -100,18 +75,18 @@ const Home = () => {
         </div>
       </div>
       {/* section 3 */}
-      <div className="bg-[#222222] text-white">
+      <div id="rooms" className="bg-[#222222] text-white">
         <div className="px-4 py-16 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div className="grid px-0  h-full bg-[#222222]">
             <div className="w-full h-0 ">
               <p className="text-[#aa8453]">THE CAPPA LUXURY HOTEL</p>
-              <h1 className="my-1 text-5xl">Rooms & Suites</h1>
+              <h1 className="my-1 text-5xl">Rooms </h1>
             </div>
             <div className="grid grid-cols-1 gap-6 mt-32 h-96 md:grid-cols-3">
               <div className="relative bg-[url('/rooms/1.jpg')] bg-cover bg-center">
                 <div className="absolute inset-0 flex items-end p-6 transition duration-300 ease-in-out bg-black bg-opacity-50 group-hover:bg-opacity-75">
                   <div className="text-left">
-                    <p className="text-xl">$200 / Night</p>
+                    <p className="text-xl">₹7000 / Night</p>
                     <h3 className="mt-2 text-2xl font-bold">Family Room</h3>
                   </div>
                 </div>
@@ -119,7 +94,7 @@ const Home = () => {
               <div className="relative bg-[url('/rooms/2.jpg')] bg-cover bg-center">
                 <div className="absolute inset-0 flex items-end p-6 transition duration-300 ease-in-out bg-black bg-opacity-50 group-hover:bg-opacity-75">
                   <div className="text-left">
-                    <p className="text-xl">$200 / Night</p>
+                    <p className="text-xl">₹7000 / Night</p>
                     <h3 className="mt-2 text-2xl font-bold">Family Room</h3>
                   </div>
                 </div>
@@ -127,7 +102,7 @@ const Home = () => {
               <div className="relative bg-[url('/rooms/3.jpg')]  bg-cover bg-center">
                 <div className="absolute inset-0 flex items-end p-6 transition duration-300 ease-in-out bg-black bg-opacity-50 group-hover:bg-opacity-75">
                   <div className="text-left">
-                    <p className="text-xl">$200 / Night</p>
+                    <p className="text-xl">₹7000 / Night</p>
                     <h3 className="mt-2 text-2xl font-bold">Family Room</h3>
                   </div>
                 </div>
@@ -137,7 +112,7 @@ const Home = () => {
               <div className="relative bg-[url('/rooms/4.jpg')]  bg-cover bg-center">
                 <div className="absolute inset-0 flex items-end p-6 transition duration-300 ease-in-out bg-black bg-opacity-50 group-hover:bg-opacity-75">
                   <div className="text-left">
-                    <p className="text-xl">$200 / Night</p>
+                    <p className="text-xl">₹7000 / Night</p>
                     <h3 className="mt-2 text-2xl font-bold">Family Room</h3>
                   </div>
                 </div>
@@ -145,7 +120,7 @@ const Home = () => {
               <div className="relative bg-[url('/rooms/7.jpg')]   bg-cover bg-center">
                 <div className="absolute inset-0 flex items-end p-6 transition duration-300 ease-in-out bg-black bg-opacity-50 group-hover:bg-opacity-75">
                   <div className="text-left">
-                    <p className="text-xl">$200 / Night</p>
+                    <p className="text-xl">₹7000 / Night</p>
                     <h3 className="mt-2 text-2xl font-bold">Family Room</h3>
                   </div>
                 </div>
@@ -154,8 +129,23 @@ const Home = () => {
           </div>
         </div>
       </div>
+
+      {/* section 4.1 rewe */}
+      {/* <div className="flex items-center justify-center w-full h-screen bg-transparent">
+        <div className="w-full mx-96 h-96">
+          <div>
+            <p className="text-xs">TESTIMONIALS</p>
+            <h1 className="my-3 text-3xl">What Client's Say?</h1>
+          </div>
+          <div>
+            <div className="h-56 sm:h-64 xl:h-80 2xl:h-96">
+          
+            </div>
+          </div>
+        </div>
+      </div> */}
       {/* section 4 cards */}
-      <div className="text-white bg-[#222222]">
+      <div id="facilities" className="text-white bg-[#222222]">
         <div className="px-4 py-16 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div className="text-center">
             <h2 className="text-base font-semibold tracking-wide text-[#aa8453] uppercase">
@@ -230,7 +220,9 @@ const Home = () => {
         </div>
       </div>
       {/* footer */}
-      <Footer />
+      <div id="footer">
+        <Footer />
+      </div>
     </>
   );
 };
