@@ -1,452 +1,501 @@
 [
   {
-    "id": 1,
-    "name": "STANDARD ROOM – ONE KING BED",
+    "name": "Serenity Springs Retreat",
     "rating": 4.5,
     "charges": 100,
     "img": "https://demo.goodlayers.com/hotelmaster/dark/wp-content/uploads/2015/03/photodune-2676493-suite-bed-room-with-balcony-of-a-luxury-resort-m-400x300.jpg",
-    "description": "Specify the types of rooms available, such as standard rooms, suites, studio rooms, accessible rooms, etc.",
-    "uiq": "unique_id_101"
+    "description": ". Experience unparalleled luxury and comfort at our elegant establishment, where every detail is meticulously crafted to exceed your expectations",
+    "city": "surat",
+    "country" : "india",
+    "phone" : 8473743878
   },
   {
-    "id": 2,
-    "name": "JUNIOR SUITE – ONE DOUBLE BED",
+    "name": "Tranquil Haven Inn ",
     "rating": 4.2,
     "charges": 120,
     "img": "https://demo.goodlayers.com/hotelmaster/dark/wp-content/uploads/2015/03/photodune-3973259-hotel-room-m-400x300.jpg",
-    "description": "",
-    "uiq": "unique_id_102"
+    "description": "Indulge in a serene retreat amidst breathtaking landscapes, where tranquility meets luxury in perfect harmony.",
+    "city": "mumbai",
+    "country" : "india",
+    "phone" : 8473743478
   },
   {
-    "id": 3,
-    "name": "JUNIOR SUITE – ONE SINGLE BED",
+    "name": "Whispering Pines Lodge",
     "rating": 4.2,
     "charges": 120,
     "img": "https://demo.goodlayers.com/hotelmaster/dark/wp-content/uploads/2015/03/photodune-2681114-penthouse-room-on-a-sunny-day-m-400x300.jpg",
-    "description": "A cozy room with modern amenities.",
-    "uiq": "unique_id_102"
+    "description": "Immerse yourself in the lap of luxury at our opulent sanctuary, where every moment is infused with sophistication and refinement.",
+    "city": "mumbai",
+    "country" : "india",
+    "phone" : 8653685363
   },
   {
-    "id": 4,
-    "name": "JUNIOR SUITE – ONE SINGLE BED",
+    "name": "JEnchanted Oasis Resort",
     "rating": 4.2,
     "charges": 120,
     "img": "https://img.freepik.com/free-photo/elegant-hotel-room-with-window_1203-1492.jpg?w=826&t=st=1708170297~exp=1708170897~hmac=1ce4f365c002650e64f082e52ff4f939eed5ea1f8e53c43713268ef151d258d1",
-    "description": "A cozy room with modern amenities.",
-    "uiq": "unique_id_102"
+    "description": "Discover a hidden gem nestled in nature's embrace, where rustic charm meets modern indulgence for a truly unforgettable stay.",
+    "city": "mumbai",
+    "country" : "india",
+    "phone" : 6479642680
   },
   {
-    "id": 5,
-    "name": "JUNIOR SUITE – ONE SINGLE BED",
+    "name": "Azure Horizon Hotel",
     "rating": 4.2,
     "charges": 120,
     "img": "https://img.freepik.com/free-photo/luxury-classic-modern-bedroom-suite-hotel_105762-1787.jpg?w=826&t=st=1708170641~exp=1708171241~hmac=0f21540a994dc5fa844707e48ddc1f8a89707be56bdc1d0cf00e3e0cf7810910",
-    "description": "A cozy room with modern amenities.",
-    "uiq": "unique_id_102"
+    "description": " Escape the ordinary and embrace the extraordinary at our exclusive resort, where every corner reveals a new dimension of luxury",
+    "city": "surat",
+    "country" : "india",
+    "phone" : 864636237
   },
   {
-    "id": 6,
-    "name": "JUNIOR SUITE – ONE SINGLE BED",
+    "name": "Celestial Crest Inn ",
     "rating": 4.2,
     "charges": 120,
     "img": "https://img.freepik.com/premium-photo/3d-rendering-luxury-bedroom-suite-resort-hotel-with-twin-bed-living_105762-2017.jpg?w=826",
-    "description": "A cozy room with modern amenities.",
-    "uiq": "unique_id_102"
+    "description": "Embark on a journey of relaxation and rejuvenation at our serene haven, where peace and tranquility await at every turn.",
+    "city": "jaipur",
+    "country" : "india",
+    "phone" : 6364257484
   },
   {
-    "id": 7,
-    "name": "JUNIOR SUITE – ONE SINGLE BED",
+    "name": "Blissful Meadows Retreat",
     "rating": 4.2,
     "charges": 120,
     "img": "https://img.freepik.com/free-photo/luxury-bedroom-suite-resort-high-rise-hotel-with-working-table_105762-1783.jpg?w=826&t=st=1708170825~exp=1708171425~hmac=c84241d0655d35396cc29f835ee1a0afe73a512b65b2edd97475ef0d07a87af3",
-    "description": "A cozy room with modern amenities.",
-    "uiq": "unique_id_102"
+    "description": "Reconnect with nature and revitalize your senses at our eco-friendly retreat, where sustainability meets luxury in perfect harmony",
+    "city": "jaipur",
+    "country" : "india",
+    "phone" : 9876543243
   }, 
   {
-    "id": 8,
-    "name": "JUNIOR SUITE – ONE SINGLE BED",
+    "name": "Radiant Orchid Lodge",
     "rating": 4.2,
     "charges": 120,
     "img": "https://img.freepik.com/premium-photo/3d-rendering-loft-modern-bedroom-near-window-view_105762-559.jpg?w=900",
-    "description": "A cozy room with modern amenities.",
-    "uiq": "unique_id_102"
+    "description": "Step into a world of timeless elegance and unmatched hospitality at our historic hotel, where old-world charm meets modern comfort.",
+    "city": "jaipur",
+    "country" : "india",
+    "phone" : 9764364786
   },
   {
-    "id": 9,
-    "name": "JUNIOR SUITE – ONE SINGLE BED",
+    "name": "Moonlit Mirage Resort",
     "rating": 4.2,
     "charges": 120,
     "img": "https://img.freepik.com/free-photo/modern-apartment-bedroom-comfortable-bed-near-window-generative-ai_188544-7709.jpg?w=826&t=st=1708173215~exp=1708173815~hmac=653390178c4de3835b5281af29cf4fb93a28a06b0a2f30557b143a07bce86f45",
-    "description": "A cozy room with modern amenities.",
-    "uiq": "unique_id_102"
+    "description": "Surrender to the allure of luxury and sophistication at our exquisite boutique hotel, where personalized service is our hallmark",
+    "city": "delhi",
+    "country" : "india",
+    "phone" : 757976465
   },
   {
-    "id": 10,
-    "name": "JUNIOR SUITE – ONE SINGLE BED",
+    "name": "Velvet Sky Hotel",
     "rating": 4.2,
     "charges": 120,
-    "img": "https://img.freepik.com/premium-photo/bedroom-with-bed-lamp-side_752894-137.jpg?w=740",
-    "description": "A cozy room with modern amenities.",
-    "uiq": "unique_id_102"
+    "description": " Unwind in style and sophistication at our contemporary hotel, where every amenity is designed to elevate your stay to new heights.",
+    "city": "delhi",
+    "country" : "india",
+    "phone" : 7646434656
   },
   {
-    "id": 11,
-    "name": "JUNIOR SUITE – ONE SINGLE BED",
+    "name": "Solstice Sanctuary",
     "rating": 4.2,
     "charges": 120,
     "img": "https://img.freepik.com/premium-photo/3d-rendering-modern-cozy-bedroom-interior-design-inspiration_674881-809.jpg?w=740",
-    "description": "A cozy room with modern amenities.",
-    "uiq": "unique_id_102"
+    "description": "Escape to a secluded paradise where luxury knows no bounds, and every moment is a testament to the art of hospitality",
+    "city": "surat",
+    "country" : "india",
+    "phone" : 97643567864
   },
   {
-    "id": 12,
-    "name": "JUNIOR SUITE – ONE SINGLE BED",
+    "name": "Harmony Hilltop Inn",
     "rating": 4.2,
     "charges": 120,
     "img": "https://i.pinimg.com/564x/e8/c5/0c/e8c50ce285b0a5730a23db4e1459cd3b.jpg",
-    "description": "A cozy room with modern amenities.",
-    "uiq": "unique_id_102"
+    "description": "Immerse yourself in the rich tapestry of culture and tradition at our culturally-inspired hotel, where every detail tells a story.",
+    "city": "manali",
+    "country" : "india",
+    "phone" : 7653797653
   },
   {
-    "id": 13,
-    "name": "JUNIOR SUITE – ONE SINGLE BED",
+    "name": "Mystique Manor Hotel ",
     "rating": 4.2,
     "charges": 120,
     "img": "https://i.pinimg.com/564x/89/44/fc/8944fc0d1986cd5b9d2ce48ef41785a2.jpg",
-    "description": "A cozy room with modern amenities.",
-    "uiq": "unique_id_102"
+    "description": " Bask in the warm embrace of hospitality at our family-owned hotel, where personalized service and attention to detail are our pride.",
+    "city": "manali",
+    "country" : "india",
+    "phone" : 8654256895
   },
   {
-    "id": 14,
-    "name": "JUNIOR SUITE – ONE SINGLE BED",
+    "name": "Aurora Breeze Lodge ",
     "rating": 4.2,
     "charges": 120,
     "img": "https://i.pinimg.com/564x/50/d3/98/50d39835fd1aea35b3f18e6833dc6e2c.jpg",
-    "description": "A cozy room with modern amenities.",
-    "uiq": "unique_id_102"
+    "description": "Experience the epitome of luxury living at our lavish resort, where every indulgence is yours to savor in style.",
+    "city": "amdavad",
+    "country" : "india",
+    "phone" : 9744268643
   },
   {
-    "id": 15,
-    "name": "JUNIOR SUITE – ONE SINGLE BED",
+    "name": "Sunset Vista Retreat ",
     "rating": 4.2,
     "charges": 120,
     "img": "https://i.pinimg.com/564x/9f/cf/61/9fcf61912b0d20452e38126569ad2796.jpg",
-    "description": "A cozy room with modern amenities.",
-    "uiq": "unique_id_102"
+    "description": "Retreat to a haven of tranquility and relaxation at our wellness-focused hotel, where rejuvenation of mind, body, and soul is paramount",
+    "city": "amdavad",
+    "country" : "india",
+    "phone" : 8764553678
   },
   {
-    "id": 16,
-    "name": "JUNIOR SUITE – ONE SINGLE BED",
+    "name": "Oasis Mirage Hotel ",
     "rating": 4.2,
     "charges": 120,
     "img": "https://i.pinimg.com/564x/93/42/7d/93427d5d22b91ca0768f36cd7f1c66a5.jpg",
-    "description": "A cozy room with modern amenities.",
-    "uiq": "unique_id_102"
+    "description": "Discover a sanctuary of serenity amidst bustling city life at our urban oasis, where luxury and convenience go hand in hand.",
+     "city": "surat",
+    "country" : "india",
+    "phone" : 747654544
   },
   {
-    "id": 17,
-    "name": "JUNIOR SUITE – ONE SINGLE BED",
+    "name": "Sapphire Shores Inn ",
     "rating": 4.2,
     "charges": 120,
     "img": "https://i.pinimg.com/564x/38/90/b6/3890b6af3254c7e22b1b1590c08fb623.jpg",
-    "description": "A cozy room with modern amenities.",
-    "uiq": "unique_id_102"
+    "description": "Unplug and unwind in the lap of nature at our secluded retreat, where peace and solitude are the ultimate luxuries.",
+     "city": "benglore",
+    "country" : "india",
+    "phone" : 8654325789
   },
   {
-    "id": 18,
-    "name": "JUNIOR SUITE – ONE SINGLE BED",
+    "name": "Emerald Isle Retreat ",
     "rating": 4.2,
     "charges": 120,
     "img": "https://i.pinimg.com/564x/d3/84/e0/d384e01a9ce348abee2b6b0ea5cb0d64.jpg",
-    "description": "A cozy room with modern amenities.",
-    "uiq": "unique_id_102"
+    "description": "Elevate your stay to new heights of luxury and sophistication at our iconic hotel, where timeless elegance meets modern opulence.",
+     "city": "benglore",
+    "country" : "india",
+    "phone" : 9865486532
   },
   {
-    "id": 19,
-    "name": "JUNIOR SUITE – ONE SINGLE BED",
+    "name": "Whispering Willow Inn ",
     "rating": 4.2,
     "charges": 120,
     "img": "https://i.pinimg.com/564x/8f/a1/5f/8fa15f98edbeac823d2ce113cd3063ef.jpg",
-    "description": "A cozy room with modern amenities.",
-    "uiq": "unique_id_102"
+    "description": "Rejuvenate your senses and replenish your spirit at our wellness retreat, where holistic healing and relaxation are our priorities",
+     "city": "surat",
+    "country" : "india",
+    "phone" : 976543246
   },
   {
-    "id": 20,
-    "name": "JUNIOR SUITE – ONE SINGLE BED",
+    "name": "Serendipity Springs Resort ",
     "rating": 4.2,
     "charges": 120,
     "img": "https://i.pinimg.com/564x/45/1b/25/451b254d7b4601550c8a3a27c42e9ec4.jpg",
-    "description": "A cozy room with modern amenities.",
-    "uiq": "unique_id_102"
+    "description": "Experience the perfect blend of comfort and convenience at our centrally located hotel, where every need is anticipated and met with grace.",
+     "city": "benglore",
+    "country" : "india",
+    "phone" : 8766436890
   },
   {
-    "id": 21,
-    "name": "JUNIOR SUITE – ONE SINGLE BED",
+    "name": "Tranquility Trails Lodge ",
     "rating": 4.2,
     "charges": 120,
     "img": "https://i.pinimg.com/564x/1f/86/9f/1f869f2fdf12fa61dd33245746029e54.jpg",
-    "description": "A cozy room with modern amenities.",
-    "uiq": "unique_id_102"
+    "description": "Immerse yourself in the vibrant energy of the city at our cosmopolitan hotel, where luxury and excitement await around every corner",
+     "city": "delhi",
+    "country" : "india",
+    "phone" : 9876897789
   },
   {
-    "id": 22,
-    "name": "JUNIOR SUITE – ONE SINGLE BED",
+    "name": "Cascade Crest Hotel",
     "rating": 4.2,
     "charges": 120,
     "img": "https://i.pinimg.com/564x/6e/36/ec/6e36ecfe9d7be59e809199138c60e9c6.jpg",
-    "description": "A cozy room with modern amenities.",
-    "uiq": "unique_id_102"
+    "description": " Retreat to a world of tranquility and serenity at our countryside escape, where nature's beauty is matched only by our impeccable service.",
+     "city": "delhi",
+    "country" : "india",
+    "phone" : 9742424343
   },
   {
-    "id": 23,
-    "name": "JUNIOR SUITE – ONE SINGLE BED",
+    "name": "Enigma Escape Inn",
     "rating": 4.2,
     "charges": 120,
     "img": "https://i.pinimg.com/564x/47/2e/6c/472e6cdcbeab27091e56eed6d88d2bf9.jpg",
-    "description": "A cozy room with modern amenities.",
-    "uiq": "unique_id_102"
+    "description": "Discover a haven of luxury and indulgence at our beachfront resort, where sun, sand, and sea await your arrival.",
+     "city": "rajasthan",
+    "country" : "india",
+    "phone" : 9870985432
   },
   {
-    "id": 24,
-    "name": "JUNIOR SUITE – ONE SINGLE BED",
+    "name": "Haven's Hideaway Resort",
     "rating": 4.2,
     "charges": 120,
     "img": "https://i.pinimg.com/564x/a3/10/52/a3105296efa9a4ac1a52ea36706a0a5d.jpg",
-    "description": "A cozy room with modern amenities.",
-    "uiq": "unique_id_102"
+    "description": "Unwind in style and sophistication at our chic urban retreat, where modern design meets timeless elegance for a truly unforgettable stay.",
+     "city": "udaipur",
+    "country" : "india",
+    "phone" : 9745454632
   },
   {
-    "id": 25,
-    "name": "JUNIOR SUITE – ONE SINGLE BED",
+    "name": "Ethereal Echo Hotel",
     "rating": 4.2,
     "charges": 120,
     "img": "https://i.pinimg.com/564x/b5/da/58/b5da582c283f17e964e256925f135a61.jpg",
-    "description": "A cozy room with modern amenities.",
-    "uiq": "unique_id_102"
+    "description": "Escape to a world of luxury and opulence at our exclusive hideaway, where privacy and indulgence are the cornerstones of our hospitality.",
+     "city": "surat",
+    "country" : "india",
+    "phone" : 7654353467
   },
   {
-    "id": 26,
-    "name": "JUNIOR SUITE – ONE SINGLE BED",
+    "name": "Sunbeam Sanctuary",
     "rating": 4.2,
     "charges": 120,
     "img": "https://i.pinimg.com/564x/68/e2/7f/68e27f68f49b980e65e4476334955648.jpg",
-    "description": "A cozy room with modern amenities.",
-    "uiq": "unique_id_102"
+    "description": " Experience the ultimate in relaxation and rejuvenation at our spa resort, where wellness is not just a concept but a way of life.",
+     "city": "delhi",
+    "country" : "india",
+    "phone" : 9876575678
   },
   {
-    "id": 27,
-    "name": "JUNIOR SUITE – ONE SINGLE BED",
+    "name": "Twilight Terrace Inn",
     "rating": 4.2,
     "charges": 120,
     "img": "https://i.pinimg.com/564x/0e/f6/57/0ef657c50589f1fcc178cfaf4e78d97b.jpg",
-    "description": "A cozy room with modern amenities.",
-    "uiq": "unique_id_102"
+    "description": "Indulge in a culinary journey of epic proportions at our gourmet hotel, where gastronomic delights await your discerning palate",
+     "city": "surat",
+    "country" : "india",
+    "phone" : 987897654
   },
   {
-    "id": 28,
-    "name": "JUNIOR SUITE – ONE SINGLE BED",
+    "name": "Enchanted Elm Lodge",
     "rating": 4.2,
     "charges": 120,
     "img": "https://i.pinimg.com/564x/6a/c6/2b/6ac62be133648789812d90269a3d3fe3.jpg",
-    "description": "A cozy room with modern amenities.",
-    "uiq": "unique_id_102"
+    "description": "Retreat to a haven of peace and tranquility at our mountain lodge, where breathtaking views and cozy comforts await your arrival.",
+     "city": "delhi",
+    "country" : "india",
+    "phone" : 9809878789
   },
   {
-    "id": 29,
-    "name": "JUNIOR SUITE – ONE SINGLE BED",
+    "name": "Paradise Peaks Resort",
     "rating": 4.2,
     "charges": 120,
     "img": "https://i.pinimg.com/564x/d9/43/00/d9430057063a496e906c6c609e8fbd94.jpg",
-    "description": "A cozy room with modern amenities.",
-    "uiq": "unique_id_102"
+    "description": "Experience the magic of the season at our holiday-themed hotel, where festive cheer and merriment abound all year round.",
+     "city": "surat",
+    "country" : "india",
+    "phone" : 8976767898
   },
   {
-    "id": 30,
-    "name": "JUNIOR SUITE – ONE SINGLE BED",
+    "name": "Radiant Rainforest Retreat ",
     "rating": 4.2,
     "charges": 120,
     "img": "https://i.pinimg.com/564x/68/6b/83/686b8331e63860bc589511d8838e6f35.jpg",
-    "description": "A cozy room with modern amenities.",
-    "uiq": "unique_id_102"
+    "description": "Discover a world of adventure and excitement at our adrenaline-fueled resort, where thrills and spills await intrepid travelers.",
+     "city": "delhi",
+    "country" : "india",
+    "phone" : 9878797868
   },
   {
-    "id": 31,
-    "name": "JUNIOR SUITE – ONE SINGLE BED",
+    "name": "Moonstone Manor Hotel ",
     "rating": 4.2,
     "charges": 120,
     "img": "https://i.pinimg.com/564x/49/f4/41/49f4411d9f74dc0016bcbc3fcd898275.jpg",
-    "description": "A cozy room with modern amenities.",
-    "uiq": "unique_id_102"
+    "description": "Unplug and unwind in the lap of luxury at our technology-free retreat, where digital detoxification is encouraged and embraced.",
+     "city": "benglore",
+    "country" : "india",
+    "phone" : 7875676746
   },
   {
-    "id": 32,
-    "name": "JUNIOR SUITE – ONE SINGLE BED",
+    "name": "Starlight Sands Inn ",
     "rating": 4.2,
     "charges": 120,
     "img": "https://i.pinimg.com/564x/46/9c/77/469c773add1ad858261d7d13124d2e2a.jpg",
-    "description": "A cozy room with modern amenities.",
-    "uiq": "unique_id_102"
+    "description": "Escape to a world of romance and enchantment at our fairy-tale-inspired hotel, where every moment feels like a dream come true.",
+     "city": "delhi",
+    "country" : "india",
+    "phone" : 9877656765
   },
   {
-    "id": 33,
-    "name": "JUNIOR SUITE – ONE SINGLE BED",
+    "name": "Whispering Woods Lodge ",
     "rating": 4.2,
     "charges": 120,
     "img": "https://i.pinimg.com/564x/2e/aa/48/2eaa48c53a2aac6ec7b09aa62f26c8c6.jpg",
-    "description": "A cozy room with modern amenities.",
-    "uiq": "unique_id_102"
+    "description": "Retreat to a sanctuary of calm and tranquility at our adults-only resort, where relaxation and rejuvenation are the only items on the agenda.",
+     "city": "mumbai",
+    "country" : "india",
+    "phone" : 9878789875
   },
   {
-    "id": 34,
-    "name": "JUNIOR SUITE – ONE SINGLE BED",
+    "name": "Serenity Cove Retreat ",
     "rating": 4.2,
     "charges": 120,
     "img": "https://i.pinimg.com/564x/3a/94/c6/3a94c631244d57506a2e8420a9ed33fd.jpg",
-    "description": "A cozy room with modern amenities.",
-    "uiq": "unique_id_102"
+    "description": "Discover a world of luxury and indulgence at our all-inclusive resort, where every desire is catered to with care and attention",
+     "city": "manali",
+    "country" : "india",
+    "phone" : 87689787
   },
   {
-    "id": 35,
-    "name": "JUNIOR SUITE – ONE SINGLE BED",
+    "name": "Oceanic Oasis Hotel ",
     "rating": 4.2,
     "charges": 120,
     "img": "https://i.pinimg.com/564x/4c/5f/1a/4c5f1a8d45a2eea7ac7397854f43cb6e.jpg",
-    "description": "A cozy room with modern amenities.",
-    "uiq": "unique_id_102"
+    "description": "Unwind in style and sophistication at our boutique hotel, where personalized service and attention to detail set us apart from the rest.",
+     "city": "udaipur",
+    "country" : "india",
+    "phone" : 9879687979
   },
   {
-    "id": 36,
-    "name": "JUNIOR SUITE – ONE SINGLE BED",
+    "name": "Harmony Heights Inn ",
     "rating": 4.2,
     "charges": 120,
     "img": "https://i.pinimg.com/564x/9c/23/b7/9c23b7ac2937407e3cb8ea125df9ebdd.jpg",
-    "description": "A cozy room with modern amenities.",
-    "uiq": "unique_id_102"
+    "description": "Experience the height of luxury living at our penthouse suite, where panoramic views and opulent amenities await discerning guests.",
+     "city": "surat",
+    "country" : "india",
+    "phone" : 9898687979
   },
   {
-    "id": 37,
-    "name": "JUNIOR SUITE – ONE SINGLE BED",
+    "name": "Mystic Meadows Resort ",
     "rating": 4.2,
     "charges": 120,
     "img": "https://i.pinimg.com/564x/b2/4a/da/b24adabab2518920ef3a1cc930904814.jpg",
-    "description": "A cozy room with modern amenities.",
-    "uiq": "unique_id_102"
+    "description": "Retreat to a haven of peace and serenity at our zen-inspired hotel, where mindfulness and meditation are encouraged and embraced.",
+     "city": "surat",
+    "country" : "india",
+    "phone" : 9886979686
   },
   {
-    "id": 38,
-    "name": "JUNIOR SUITE – ONE SINGLE BED",
+    "name": "Aurora View Lodge ",
     "rating": 4.2,
     "charges": 120,
     "img": "https://i.pinimg.com/564x/84/9b/09/849b09f2436586e644067299b130efe8.jpg",
-    "description": "A cozy room with modern amenities.",
-    "uiq": "unique_id_102"
+    "description": "Discover a world of wonder and excitement at our theme park hotel, where adventure and entertainment await guests of all ages.",
+     "city": "amdavad",
+    "country" : "india",
+    "phone" : 987778767
   },
   {
-    "id": 39,
-    "name": "JUNIOR SUITE – ONE SINGLE BED",
+    "name": "Ember Glow Retreat ",
     "rating": 4.2,
     "charges": 120,
     "img": "https://i.pinimg.com/564x/99/6e/ad/996eadbb3b0645df11dcfc6619dab1a7.jpg",
-    "description": "A cozy room with modern amenities.",
-    "uiq": "unique_id_102"
+    "description": "Unplug and unwind in the lap of nature at our eco-resort, where sustainable practices and eco-friendly initiatives are our top priorities.",
+     "city": "amdavad",
+    "country" : "india",
+    "phone" : 977556789
   },
   {
-    "id": 40,
-    "name": "JUNIOR SUITE – ONE SINGLE BED",
+    "name": "Enchanted Eden Hotel ",
     "rating": 4.2,
     "charges": 120,
     "img": "https://i.pinimg.com/736x/3e/73/93/3e739369264a800261175eeb0805dda9.jpg",
-    "description": "A cozy room with modern amenities.",
-    "uiq": "unique_id_102"
+    "description": "Experience the magic of the great outdoors at our wilderness retreat, where hiking, fishing, and wildlife spotting are just a few steps away.",
+     "city": "jaipur",
+    "country" : "india",
+    "phone" : 8766789764
   },
   {
-    "id": 41,
-    "name": "JUNIOR SUITE – ONE SINGLE BED",
+    "name": "Tranquil Tides Inn ",
     "rating": 4.2,
     "charges": 120,
     "img": "https://i.pinimg.com/564x/6e/6b/85/6e6b85feb404fbe2e0375afb210c8475.jpg",
-    "description": "A cozy room with modern amenities.",
-    "uiq": "unique_id_102"
+    "description": "Retreat to a world of tranquility and relaxation at our lakeside resort, where serene waters and lush landscapes create the perfect backdrop for your getaway.",
+     "city": "delhi",
+    "country" : "india",
+    "phone" : 9875678657
   },
   {
-    "id": 42,
-    "name": "JUNIOR SUITE – ONE SINGLE BED",
+    "name": "Celestial Citadel Lodge",
     "rating": 4.2,
     "charges": 120,
     "img": "https://i.pinimg.com/564x/1e/e7/04/1ee704b4c9387d057a3e9ef71fa4400e.jpg",
-    "description": "A cozy room with modern amenities.",
-    "uiq": "unique_id_102"
+    "description": "Discover a sanctuary of serenity amidst bustling city life at our urban escape, where luxury and convenience go hand in hand.",
+     "city": "amdavad",
+    "country" : "india",
+    "phone" : 8786656789
   },
   {
-    "id": 43,
-    "name": "JUNIOR SUITE – ONE SINGLE BED",
+    "name": "Dreamcatcher Dreams Inn ",
     "rating": 4.2,
     "charges": 120,
     "img": "https://i.pinimg.com/564x/94/64/35/946435d2778c3d7919a265cd55a2aff3.jpg",
-    "description": "A cozy room with modern amenities.",
-    "uiq": "unique_id_102"
+    "description": "Unwind in style and sophistication at our contemporary hotel, where sleek design and modern amenities create an atmosphere of understated elegance.",
+     "city": "surat",
+    "country" : "india",
+    "phone" : 7865678975
   },
   {
-    "id": 44,
-    "name": "JUNIOR SUITE – ONE SINGLE BED",
+    "name": "Sapphire Springs Retreat ",
     "rating": 4.2,
     "charges": 120,
     "img": "https://i.pinimg.com/564x/d9/53/d9/d953d91200e849cb4980da8a06608773.jpg",
-    "description": "A cozy room with modern amenities.",
-    "uiq": "unique_id_102"
+    "description": "Experience the height of luxury and indulgence at our five-star resort, where every detail is meticulously crafted to ensure an unforgettable stay.",
+     "city": "surat",
+    "country" : "india",
+    "phone" : 8797564356
   },
   {
-    "id": 45,
-    "name": "JUNIOR SUITE – ONE SINGLE BED",
+    "name": "Emerald Enclave Hotel ",
     "rating": 4.2,
     "charges": 120,
     "img": "https://i.pinimg.com/564x/3c/88/1b/3c881b329a23b94f862eb012cee13971.jpg",
-    "description": "A cozy room with modern amenities.",
-    "uiq": "unique_id_102"
+    "description": "Retreat to a haven of peace and tranquility at our countryside retreat, where rolling hills and pastoral landscapes create the perfect setting for relaxation.",
+     "city": "amdavad",
+    "country" : "india",
+    "phone" : 7865678976
   },
   {
-    "id": 46,
-    "name": "JUNIOR SUITE – ONE SINGLE BED",
+    "name": "Whispering Waterfall Inn ",
     "rating": 4.2,
     "charges": 120,
     "img": "https://i.pinimg.com/564x/e1/2c/03/e12c030a3d63e4d62ddb74ee66a04456.jpg",
-    "description": "A cozy room with modern amenities.",
-    "uiq": "unique_id_102"
+    "description": "Discover a world of luxury and opulence at our exclusive resort, where personalized service and attention to detail are our top priorities.",
+     "city": "surat",
+    "country" : "india",
+    "phone" : 7867897656
   },
   {
-    "id": 47,
-    "name": "JUNIOR SUITE – ONE SINGLE BED",
+    "name": "Haven's Harbor Resort ",
     "rating": 4.2,
     "charges": 120,
     "img": "https://i.pinimg.com/564x/12/1f/6a/121f6a2494a4cc7986b93eac1c42077b.jpg",
-    "description": "A cozy room with modern amenities.",
-    "uiq": "unique_id_102"
+    "description": "Unplug and unwind in the lap of nature at our eco-friendly hotel, where sustainability and conservation are at the heart of everything we do.",
+     "city": "amdavad",
+    "country" : "india",
+    "phone" : 6768898786
   },
   {
-    "id": 48,
-    "name": "JUNIOR SUITE – ONE SINGLE BED",
+    "name": "Ethereal Essence Lodge ",
     "rating": 4.2,
     "charges": 120,
     "img": "https://i.pinimg.com/564x/28/45/7e/28457ec0209539eef13c0838905cd07b.jpg",
-    "description": "A cozy room with modern amenities.",
-    "uiq": "unique_id_102"
+    "description": "",
+     "city": "surat",
+    "country" : "india",
+    "phone" : 89767686788
   },
   {
-    "id": 49,
-    "name": "JUNIOR SUITE – ONE SINGLE BED",
+    "name": "Enigma's Edge Hotel",
     "rating": 4.2,
     "charges": 120,
     "img": "https://i.pinimg.com/564x/4d/3d/68/4d3d68cc7f99901e00499dd93c17822e.jpg",
-    "description": "A cozy room with modern amenities.",
-    "uiq": "unique_id_102"
+    "description": " Experience the magic of the season at our holiday-themed resort, where festive decorations and seasonal activities create a warm and welcoming atmosphere",
+     "city": "mumbai",
+    "country" : "india",
+    "phone" : 8789797878
   },
   {
-    "id": 50,
-    "name": "JUNIOR SUITE – ONE SINGLE BED",
+    "name": "Sunbeam Sanctuary ",
     "rating": 4.2,
     "charges": 120,
     "img": "https://i.pinimg.com/564x/45/d8/84/45d8844aad51984d4188b1e16844cc4a.jpg",
-    "description": "A cozy room with modern amenities.",
-    "uiq": "unique_id_102"
+    "description": "Retreat to a world of elegance and sophistication at our historic hotel, where timeless charm and modern amenities come together to create a truly memorable experience.",
+     "city": "surat",
+    "country" : "india",
+    "phone" : 8786768976
   }
 ]
