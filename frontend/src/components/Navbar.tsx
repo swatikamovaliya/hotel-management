@@ -13,7 +13,7 @@ const Navbar = () => {
         <a href="#rooms"> Rooms </a>
         <div className="flex ">
           <SignedOut>
-            <div className="px-3 mr-2 border rounded-md">
+            <div className="px-3 m-1 mr-2 border rounded-md">
               <SignInButton mode={"modal"} />
             </div>
           </SignedOut>

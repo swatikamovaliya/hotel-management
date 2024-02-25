@@ -38,6 +38,13 @@ body {
 	background: transparent;
 	border: 2px solid #fff;
 }
+div a:hover{
+	color: #aa8453;
+	border-radius: 6px;
+}
+div a:active{
+	background-color: white;
+}
 .single-btn a:before {
 	content: '';
 	position: absolute;

@@ -9,6 +9,7 @@ const Home = () => {
     <>
       {/* section 1  nav, fist look*/}
       <div className="grid overflow-x-hidden h-screen w-full bg-[url('/slider/2.jpg')] bg-no-repeat bg-cover bg-center bg-fixed">
+
         <div>
           <Navbar />
           <div className="flex items-center justify-center w-full mt-40">
@@ -87,7 +88,7 @@ const Home = () => {
                 <div className="absolute inset-0 flex items-end p-6 transition duration-300 ease-in-out bg-black bg-opacity-50 group-hover:bg-opacity-75">
                   <div className="text-left">
                     <p className="text-xl">₹7000 / Night</p>
-                    <h3 className="mt-2 text-2xl font-bold">Family Room</h3>
+                    <h3 className="mt-2 text-2xl font-bold">Junior Room</h3>
                   </div>
                 </div>
               </div>
@@ -103,7 +104,7 @@ const Home = () => {
                 <div className="absolute inset-0 flex items-end p-6 transition duration-300 ease-in-out bg-black bg-opacity-50 group-hover:bg-opacity-75">
                   <div className="text-left">
                     <p className="text-xl">₹7000 / Night</p>
-                    <h3 className="mt-2 text-2xl font-bold">Family Room</h3>
+                    <h3 className="mt-2 text-2xl font-bold">Double Room</h3>
                   </div>
                 </div>
               </div>
@@ -113,7 +114,7 @@ const Home = () => {
                 <div className="absolute inset-0 flex items-end p-6 transition duration-300 ease-in-out bg-black bg-opacity-50 group-hover:bg-opacity-75">
                   <div className="text-left">
                     <p className="text-xl">₹7000 / Night</p>
-                    <h3 className="mt-2 text-2xl font-bold">Family Room</h3>
+                    <h3 className="mt-2 text-2xl font-bold">Delux Room</h3>
                   </div>
                 </div>
               </div>
@@ -121,7 +122,7 @@ const Home = () => {
                 <div className="absolute inset-0 flex items-end p-6 transition duration-300 ease-in-out bg-black bg-opacity-50 group-hover:bg-opacity-75">
                   <div className="text-left">
                     <p className="text-xl">₹7000 / Night</p>
-                    <h3 className="mt-2 text-2xl font-bold">Family Room</h3>
+                    <h3 className="mt-2 text-2xl font-bold">Superior Room</h3>
                   </div>
                 </div>
               </div>
