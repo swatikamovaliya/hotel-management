@@ -3,16 +3,16 @@ const { Schema } = mongoose;
 
 const BookingHotelSchema = new Schema(
   {
-    HotelId: String,
-    visiter: String,
-    checkIn: String,
-    checkOut: String,
+    hotelId: String,
+    userId: String,
+    name: String,
+    checkInDate: String,
+    checkOutDate: String,
     roomType: String,
-    roomCount: Number,
-    adultCount: Number,
-    childrenCount: Number,
+    adults: Number,
+    children: Number,
     totalAmount: Number,
-    phone: Number,
+    phoneNumber: Number,
     email: String,
   },
   { timestamps: true }

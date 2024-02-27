@@ -21,7 +21,6 @@ const Book = () => {
 
   useEffect(() => {
     fetchData().then((data) => {
-      console.log(data);
       setRooms(data.data);
     });
   }, []);
