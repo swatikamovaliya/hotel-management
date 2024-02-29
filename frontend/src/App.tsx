@@ -3,20 +3,23 @@ import Home from "./pages/Home";
 import Book from "./pages/Hotels";
 import Booking from "./pages/Booking";
 import MyRoom from "./pages/MyRoom";
+import { ThemeProvider } from "./components/theme-provider";
 
 function App() {
   return (
-    <div>
-      <Router>
-        <div></div>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/book" element={<Book />} />
-          <Route path="/book/:hotelId" element={<Booking />} />
-          <Route path="/myroom" element={<MyRoom />} />
-        </Routes>
-      </Router> 
-    </div>
+    <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
+      <div>
+        <Router>
+          <div></div>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/book" element={<Book />} />
+            <Route path="/book/:hotelId" element={<Booking />} />
+            <Route path="/myroom" element={<MyRoom />} />
+          </Routes>
+        </Router>
+      </div>
+    </ThemeProvider>
   );
 }
 
