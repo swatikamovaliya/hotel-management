@@ -32,31 +32,31 @@ module.exports = {
   bookHotel: async (req, res) => {
     let success = false;
     const {
-      HotelId,
-      visiter,
-      checkIn,
-      checkOut,
+      hotelId,
+      name,
+      userId,
+      checkInDate,
+      checkOutDate,
       roomType,
-      roomCount,
-      adultCount,
-      childrenCount,
+      adults,
+      children,
       totalAmount,
-      phone,
+      phoneNumber,
       email,
     } = req.body;
 
     try {
       const data = await BookHotel.create({
-        HotelId,
-        visiter,
-        checkIn,
-        checkOut,
+        hotelId,
+        name,
+        userId,
+        checkInDate,
+        checkOutDate,
         roomType,
-        roomCount,
-        adultCount,
-        childrenCount,
+        adults,
+        children,
         totalAmount,
-        phone,
+        phoneNumber,
         email,
       });
 
@@ -67,4 +67,18 @@ module.exports = {
       res.status(500).send("Internal Server Error Occured");
     }
   },
+  myrooms: async (req, res) => {
+    let success = false;
+    const { userId } = req.body;
+
+    try {
+      const data = await BookHotel.find({ userId });
+
+      success = true;
+      res.json({ success, data });
+    } catch (error) {
+      console.log(error.message);
+      res.status(500).send("Internal Server Error Occured");
+    }
+  }
 };
