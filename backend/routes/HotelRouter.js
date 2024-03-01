@@ -1,6 +1,11 @@
 const express = require("express");
 const router = express.Router();
-const { hotels, getHotelById, bookHotel, myrooms } = require("../controllers/hotelControllers");
+const {
+  hotels,
+  getHotelById,
+  bookHotel,
+  myrooms,
+} = require("../controllers/hotelControllers");
 
 router.get("/", hotels);
 router.get("/:id", getHotelById);

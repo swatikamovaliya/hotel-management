@@ -4,6 +4,7 @@ import Book from "./pages/Hotels";
 import Booking from "./pages/Booking";
 import MyRoom from "./pages/MyRoom";
 import { ThemeProvider } from "./components/theme-provider";
+import Admin from "./pages/Admin";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
             <Route path="/book" element={<Book />} />
             <Route path="/book/:hotelId" element={<Booking />} />
             <Route path="/myroom" element={<MyRoom />} />
+            <Route path="/admin" element={<Admin />} />
           </Routes>
         </Router>
       </div>

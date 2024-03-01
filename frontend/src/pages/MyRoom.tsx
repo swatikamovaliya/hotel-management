@@ -79,7 +79,7 @@ const MyRoom = () => {
                   </div>
                 </div>
                 <Button>
-                  <Link to={`/book/${room._id}`}>View</Link>
+                  <Link to={`/book/${room.hotelId}`}>View</Link>
                 </Button>
               </div>
             </Card>
