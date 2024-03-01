@@ -9,7 +9,7 @@ export default function Footer() {
         <div>
           <h2 className="mb-4 text-xl font-bold">About Hotel</h2>
           <p className="mb-4">
-            Welcome to the best five-star deluxe hotel in New York. Hotel elementum sesue the aucan vestibulum aliquam
+            Welcome to the best five-star deluxe hotel in India. Hotel elementum sesue the aucan vestibulum aliquam
             justo in sapien rutrum volutpat.
           </p>
           <Button className="bg-[#333333] text-white">
@@ -42,9 +42,9 @@ export default function Footer() {
         <div>
           <h2 className="mb-4 text-xl font-bold">Contact</h2>
           <p className="mb-4">
-            1616 Broadway NY, New York 10001
+            1616 Broadway NY, India 394071
             <br />
-            United States of America
+           India
           </p>
           <p className="mb-4">
             <PhoneIcon className="mr-2" />

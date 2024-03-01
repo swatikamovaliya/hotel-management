@@ -136,9 +136,9 @@ const Booking = () => {
                   name="firstName"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel>First name</FormLabel>
+                      <FormLabel>First Name</FormLabel>
                       <FormControl>
-                        <Input placeholder="shadcn" {...field} />
+                        <Input placeholder="Enter Your First Name" {...field} />
                       </FormControl>
                       <FormMessage />
                     </FormItem>
@@ -149,9 +149,9 @@ const Booking = () => {
                   name="lastName"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel>Last name</FormLabel>
+                      <FormLabel>Last Name</FormLabel>
                       <FormControl>
-                        <Input placeholder="Last name" {...field} />
+                        <Input placeholder="Enter Your Last name" {...field} />
                       </FormControl>
                       <FormMessage />
                     </FormItem>
@@ -163,9 +163,9 @@ const Booking = () => {
                 name="email"
                 render={({ field }) => (
                   <FormItem>
-                    <FormLabel>Your email</FormLabel>
+                    <FormLabel>Email</FormLabel>
                     <FormControl>
-                      <Input placeholder="Your email" {...field} />
+                      <Input placeholder="Enter Your email" {...field} />
                     </FormControl>
                     <FormMessage />
                   </FormItem>
@@ -176,11 +176,11 @@ const Booking = () => {
                 name="phoneNumber"
                 render={({ field }) => (
                   <FormItem>
-                    <FormLabel>phone Number</FormLabel>
+                    <FormLabel>Phone Number</FormLabel>
                     <FormControl>
                       <Input
                         type="number"
-                        placeholder="phoneNumber"
+                        placeholder="Enter your Phone Number"
                         {...field}
                       />
                     </FormControl>
@@ -194,9 +194,9 @@ const Booking = () => {
                   name="adults"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel>adults</FormLabel>
+                      <FormLabel>Adults</FormLabel>
                       <FormControl>
-                        <Input type="number" placeholder="shadcn" {...field} />
+                        <Input type="number" placeholder="Adults" {...field} />
                       </FormControl>
                       <FormMessage />
                     </FormItem>
@@ -207,11 +207,11 @@ const Booking = () => {
                   name="children"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel>children</FormLabel>
+                      <FormLabel>Children</FormLabel>
                       <FormControl>
                         <Input
                           type="number"
-                          placeholder="Last name"
+                          placeholder="Children"
                           {...field}
                         />
                       </FormControl>
@@ -226,7 +226,7 @@ const Booking = () => {
                 name="roomType"
                 render={({ field }) => (
                   <FormItem className="space-y-3">
-                    <FormLabel>Room type: </FormLabel>
+                    <FormLabel>Room Type: </FormLabel>
                     <FormControl>
                       <RadioGroup
                         onValueChange={field.onChange}
@@ -254,7 +254,7 @@ const Booking = () => {
 
               <CalendarDateRangePicker date={date} setDate={setDate} />
 
-              <Button type="submit">Submit</Button>
+              <Button type="submit">Book Now</Button>
             </form>
           </Form>
         </Card>
