@@ -3,6 +3,7 @@ const cors = require("cors");
 const express = require("express");
 const Hotel = require("./models/Hotel");
 const HotelRouter = require("./routes/HotelRouter");
+const AdminRouter = require("./routes/AdminRouter");
 
 // ** connect to mongoDB server
 try {
@@ -24,6 +25,7 @@ app.use(
 app.use(express.json());
 
 app.use("/hotel", HotelRouter);
+app.use("/admin", AdminRouter);
 
 app.get("/", () => {
   const fetch = async () => {

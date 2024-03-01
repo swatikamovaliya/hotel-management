@@ -21,7 +21,7 @@ const Navbar = () => {
 
           <SignedIn>
             {/* Mount the UserButton component */}
-            <UserButton />
+            <UserButton afterSignOutUrl="/" />
           </SignedIn>
           <Link to={"/book"}>
             <div className="px-3 m-1 mx-2 border rounded-md">Book Now</div>
