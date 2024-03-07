@@ -1,4 +1,9 @@
-import { SignInButton, SignedIn, SignedOut, UserButton } from "@clerk/clerk-react";
+import {
+  SignInButton,
+  SignedIn,
+  SignedOut,
+  UserButton,
+} from "@clerk/clerk-react";
 import { Link } from "react-router-dom";
 import { ModeToggle } from "./mode-toggle";
 
@@ -8,10 +13,10 @@ const Navbar = () => {
       <img src="/logo.png" className="w-40" alt="logo" />
       <div className="flex items-start gap-16">
         <Link to="/">Home </Link>
-        <a href="#about">About </a>
-        <a href="#footer"> Contact us </a>
-        <a href="#facilities"> Facilities </a>
-        <a href="#rooms"> Rooms </a>
+        <a href="/about">About </a>
+        <a href="/contact"> Contact us </a>
+        <a href="/facilities"> Facilities </a>
+        <a href="/book"> Rooms </a>
         <div className="flex ">
           <SignedOut>
             <div className="px-3 m-1 mr-2 border rounded-md">

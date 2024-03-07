@@ -9,7 +9,6 @@ const Home = () => {
     <>
       {/* section 1  nav, fist look*/}
       <div className="grid overflow-x-hidden h-screen w-full bg-[url('/slider/2.jpg')] bg-no-repeat bg-cover bg-center bg-fixed">
-
         <div>
           <Navbar />
           <div className="flex items-center justify-center w-full mt-40">
@@ -25,12 +24,8 @@ const Home = () => {
                   ENJOY A LUXURY EXPERINCE
                 </h1>
               </div>
-              <Link to={"/book"}>
-                <div className="p-3 m-2 single-btn">
-                  <a href="#">
-                    <span>Book Now</span>
-                  </a>
-                </div>
+              <Link className="mt-5" to={"/book"}>
+                <button className="button">Book now</button>
               </Link>
             </div>
           </div>
