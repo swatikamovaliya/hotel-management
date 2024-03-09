@@ -4,7 +4,7 @@ import { Button, Link } from "@mui/material"
 
 export default function Footer() {
   return (
-    <footer className="bg-[#1a1a1a] text-white p-10">
+    <footer className="dark:bg-[#1a1a1a] dark:text-white p-10">
       <div className="grid grid-cols-1 gap-8 mx-auto max-w-7xl md:grid-cols-3">
         <div>
           <h2 className="mb-4 text-xl font-bold">About Hotel</h2>

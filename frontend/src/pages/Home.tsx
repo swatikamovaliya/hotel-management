@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <>
       {/* section 1  nav, fist look*/}
-      <div className="grid overflow-x-hidden h-screen w-full bg-[url('/slider/2.jpg')] bg-no-repeat bg-cover bg-center bg-fixed">
+      <div className="grid overflow-x-hidden text-white h-screen w-full bg-[url('/slider/2.jpg')] bg-no-repeat bg-cover bg-center bg-fixed">
         <div>
           <Navbar />
           <div className="flex items-center justify-center w-full mt-40">
@@ -34,7 +34,7 @@ const Home = () => {
       {/* section 2  Enjoy a Luxury Experience*/}
       <div
         id="about"
-        className="flex items-center justify-center h-screen bg-[#222222]"
+        className="flex dark:text-white text-black items-center justify-center h-screen dark:bg-[#222222]"
       >
         <div className="w-[600px]">
           <div>
@@ -71,16 +71,16 @@ const Home = () => {
         </div>
       </div>
       {/* section 3 */}
-      <div id="rooms" className="bg-[#222222] text-white">
+      <div id="rooms" className="dark:bg-[#222222] dark:text-white">
         <div className="px-4 py-16 mx-auto max-w-7xl sm:px-6 lg:px-8">
-          <div className="grid px-0  h-full bg-[#222222]">
+          <div className="grid px-0 text-white h-full dark:bg-[#222222]">
             <div className="w-full h-0 ">
               <p className="text-[#aa8453]">THE CAPPA LUXURY HOTEL</p>
-              <h1 className="my-1 text-5xl">Rooms </h1>
+              <h1 className="my-1 text-5xl text-black dark:text-white">Rooms </h1>
             </div>
             <div className="grid grid-cols-1 gap-6 mt-32 h-96 md:grid-cols-3">
               <div className="relative bg-[url('/rooms/1.jpg')] bg-cover bg-center">
-                <div className="absolute inset-0 flex items-end p-6 transition duration-300 ease-in-out bg-black bg-opacity-50 group-hover:bg-opacity-75">
+                <div className="absolute inset-0 flex items-end p-6 transition duration-300 ease-in-out bg-black dark:bg-opacity-50 bg-opacity-0 group-hover:bg-opacity-75">
                   <div className="text-left">
                     <p className="text-xl">₹7000 / Night</p>
                     <h3 className="mt-2 text-2xl font-bold">Junior Room</h3>
@@ -88,7 +88,7 @@ const Home = () => {
                 </div>
               </div>
               <div className="relative bg-[url('/rooms/2.jpg')] bg-cover bg-center">
-                <div className="absolute inset-0 flex items-end p-6 transition duration-300 ease-in-out bg-black bg-opacity-50 group-hover:bg-opacity-75">
+                <div className="absolute inset-0 flex items-end p-6 transition duration-300 ease-in-out bg-black dark:bg-opacity-50 bg-opacity-0 group-hover:bg-opacity-75">
                   <div className="text-left">
                     <p className="text-xl">₹7000 / Night</p>
                     <h3 className="mt-2 text-2xl font-bold">Family Room</h3>
@@ -96,7 +96,7 @@ const Home = () => {
                 </div>
               </div>
               <div className="relative bg-[url('/rooms/3.jpg')]  bg-cover bg-center">
-                <div className="absolute inset-0 flex items-end p-6 transition duration-300 ease-in-out bg-black bg-opacity-50 group-hover:bg-opacity-75">
+                <div className="absolute inset-0 flex items-end p-6 transition duration-300 ease-in-out bg-black dark:bg-opacity-50 bg-opacity-0 group-hover:bg-opacity-75">
                   <div className="text-left">
                     <p className="text-xl">₹7000 / Night</p>
                     <h3 className="mt-2 text-2xl font-bold">Double Room</h3>
@@ -106,7 +106,7 @@ const Home = () => {
             </div>
             <div className="grid grid-cols-1 gap-6 mt-6 h-72 md:grid-cols-2 ">
               <div className="relative bg-[url('/rooms/4.jpg')]  bg-cover bg-center">
-                <div className="absolute inset-0 flex items-end p-6 transition duration-300 ease-in-out bg-black bg-opacity-50 group-hover:bg-opacity-75">
+                <div className="absolute inset-0 flex items-end p-6 transition duration-300 ease-in-out bg-black dark:bg-opacity-50 bg-opacity-0 group-hover:bg-opacity-75">
                   <div className="text-left">
                     <p className="text-xl">₹7000 / Night</p>
                     <h3 className="mt-2 text-2xl font-bold">Delux Room</h3>
@@ -114,7 +114,7 @@ const Home = () => {
                 </div>
               </div>
               <div className="relative bg-[url('/rooms/7.jpg')]   bg-cover bg-center">
-                <div className="absolute inset-0 flex items-end p-6 transition duration-300 ease-in-out bg-black bg-opacity-50 group-hover:bg-opacity-75">
+                <div className="absolute inset-0 flex items-end p-6 transition duration-300 ease-in-out bg-black dark:bg-opacity-50 bg-opacity-0 group-hover:bg-opacity-75">
                   <div className="text-left">
                     <p className="text-xl">₹7000 / Night</p>
                     <h3 className="mt-2 text-2xl font-bold">Superior Room</h3>
@@ -141,7 +141,7 @@ const Home = () => {
         </div>
       </div> */}
       {/* section 4 cards */}
-      <div id="facilities" className="text-white bg-[#222222]">
+      <div id="facilities" className="dark:text-white  dark:bg-[#222222]">
         <div className="px-4 py-16 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div className="text-center">
             <h2 className="text-base font-semibold tracking-wide text-[#aa8453] uppercase">
@@ -151,63 +151,63 @@ const Home = () => {
               Hotel Facilities
             </p>
           </div>
-          <div className="grid grid-cols-1 mt-20 gap-y-10 gap-x-8 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="grid  grid-cols-1 mt-20 gap-y-10 gap-x-8 sm:grid-cols-2 lg:grid-cols-3">
             <div className="text-center">
               <ClockIcon className="w-12 h-12 mx-auto text-[#aa8453]" />
-              <h3 className="mt-8 text-lg font-medium leading-6 text-white">
+              <h3 className="mt-8 text-lg font-medium leading-6 text-black dark:text-white">
                 Pick Up & Drop
               </h3>
-              <p className="mt-5 text-base text-gray-300">
+              <p className="mt-5 text-base text-gray-800 dark:text-gray-300">
                 We’ll pick up from airport while you comfy on your ride, mus
                 nellenstque habitant.
               </p>
             </div>
             <div className="text-center">
               <CarIcon className="w-12 h-12 mx-auto text-[#aa8453]" />
-              <h3 className="mt-8 text-lg font-medium leading-6 text-white">
+              <h3 className="mt-8 text-lg font-medium leading-6 text-black dark:text-white">
                 Parking Space
               </h3>
-              <p className="mt-5 text-base text-gray-300">
+              <p className="mt-5 text-base text-gray-800 dark:text-gray-300">
                 Fusce tincidunt nis ace park norttito sit amet space, mus
                 nellenstque habitant.
               </p>
             </div>
             <div className="text-center">
               <BedIcon className="w-12 h-12 mx-auto text-[#aa8453]" />
-              <h3 className="mt-8 text-lg font-medium leading-6 text-white">
+              <h3 className="mt-8 text-lg font-medium leading-6 text-black dark:text-white">
                 Room Service
               </h3>
-              <p className="mt-5 text-base text-gray-300">
+              <p className="mt-5 text-base text-gray-800 dark:text-gray-300">
                 Room tincidunt nis ace park norttito sit amet space, mus
                 nellenstque habitant.
               </p>
             </div>
             <div className="text-center">
               <FishIcon className="w-12 h-12 mx-auto text-[#aa8453]" />
-              <h3 className="mt-8 text-lg font-medium leading-6 text-white">
+              <h3 className="mt-8 text-lg font-medium leading-6 text-black dark:text-white">
                 Swimming Pool
               </h3>
-              <p className="mt-5 text-base text-gray-300">
+              <p className="mt-5 text-base text-gray-800 dark:text-gray-300">
                 Swimming pool tincidunt nise ace park norttito sit space, mus
                 nellenstque habitant.
               </p>
             </div>
             <div className="text-center">
               <WifiIcon className="w-12 h-12 mx-auto text-[#aa8453]" />
-              <h3 className="mt-8 text-lg font-medium leading-6 text-white">
+              <h3 className="mt-8 text-lg font-medium leading-6 text-black dark:text-white">
                 Fibre Internet
               </h3>
-              <p className="mt-5 text-base text-gray-300">
+              <p className="mt-5 text-base text-gray-800 dark:text-gray-300">
                 Wifi tincidunt nis ace park norttito sit amet space, mus
                 nellenstque habitant.
               </p>
             </div>
             <div className="text-center">
               <CoffeeIcon className="w-12 h-12 mx-auto text-[#aa8453]" />
-              <h3 className="mt-8 text-lg font-medium leading-6 text-white">
+              <h3 className="mt-8 text-lg font-medium leading-6 text-black dark:text-white">
                 Breakfast
               </h3>
-              <p className="mt-5 text-base text-gray-300">
+              <p className="mt-5 text-base text-gray-800 dark:text-gray-300">
                 Eat tincidunt nisa ace park norttito sit amet space, mus
                 nellenstque habitant
               </p>

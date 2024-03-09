@@ -31,6 +31,9 @@ const Navbar = () => {
           <Link to={"/book"}>
             <div className="px-3 m-1 mx-2 border rounded-md">Book Now</div>
           </Link>
+          <Link to={"/myroom"}>
+            <div className="px-3 m-1 mx-2 border rounded-md">my room</div>
+          </Link>
           <ModeToggle />
         </div>
       </div>
