@@ -8,6 +8,9 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { useEffect, useState } from "react";
+import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+import CreateHotel from "@/components/CreateHotel";
+import { ScrollArea } from "@/components/ui/scroll-area";
 
 const Admin = () => {
   const [totalRevenue, setTotalRevenue] = useState(0);
@@ -114,13 +117,23 @@ const Admin = () => {
           </CardContent>
         </Card>
       </div>
+
       <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-7">
         <Card className="col-span-4">
           <CardHeader>
             <CardTitle>
               <div className="justify-between flex">
                 <p>Overview</p>
-                <Button>add</Button> 
+                <Dialog>
+                  <DialogTrigger asChild>
+                    <Button variant="outline">Add hotel</Button>
+                  </DialogTrigger>
+                  <DialogContent className="sm:max-w-[425px] p-0">
+                    <ScrollArea className="h-96 rounded-md border p-4">
+                      <CreateHotel />
+                    </ScrollArea>
+                  </DialogContent>
+                </Dialog>
               </div>
             </CardTitle>
           </CardHeader>

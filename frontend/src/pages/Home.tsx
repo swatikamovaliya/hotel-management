@@ -76,7 +76,9 @@ const Home = () => {
           <div className="grid px-0 text-white h-full dark:bg-[#222222]">
             <div className="w-full h-0 ">
               <p className="text-[#aa8453]">THE CAPPA LUXURY HOTEL</p>
-              <h1 className="my-1 text-5xl text-black dark:text-white">Rooms </h1>
+              <h1 className="my-1 text-5xl text-black dark:text-white">
+                Rooms{" "}
+              </h1>
             </div>
             <div className="grid grid-cols-1 gap-6 mt-32 h-96 md:grid-cols-3">
               <div className="relative bg-[url('/rooms/1.jpg')] bg-cover bg-center">
@@ -151,7 +153,7 @@ const Home = () => {
               Hotel Facilities
             </p>
           </div>
-          <div className="grid  grid-cols-1 mt-20 gap-y-10 gap-x-8 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="grid grid-cols-1 mt-20 gap-y-10 gap-x-8 sm:grid-cols-2 lg:grid-cols-3">
             <div className="text-center">
               <ClockIcon className="w-12 h-12 mx-auto text-[#aa8453]" />
               <h3 className="mt-8 text-lg font-medium leading-6 text-black dark:text-white">

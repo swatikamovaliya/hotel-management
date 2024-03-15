@@ -6,7 +6,7 @@ module.exports = {
     let success = false;
 
     try {
-      const data = await Hotel.find({});
+      const data = await Hotel.find({}).sort({ _id: -1 });
 
       success = true;
       res.json({ success, data });

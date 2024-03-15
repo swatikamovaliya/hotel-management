@@ -9,7 +9,7 @@ const {
 } = require("../controllers/hotelControllers");
 
 router.get("/", hotels);
-router.get("/create", createHotels);
+router.post("/create", createHotels);
 router.get("/:id", getHotelById);
 router.post("/:id/book", bookHotel);
 router.post("/myrooms", myrooms);
