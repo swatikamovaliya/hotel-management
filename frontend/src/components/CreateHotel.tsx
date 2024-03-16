@@ -17,6 +17,7 @@ import {
 } from "./ui/form";
 import { storage } from "../../firebase/firebase";
 import { getDownloadURL, ref, uploadBytesResumable } from "firebase/storage";
+import { useNavigate } from "react-router-dom";
 
 const formSchema = z.object({
   name: z.string().min(2).max(50),
@@ -31,6 +32,7 @@ const formSchema = z.object({
 const CreateHotel = () => {
   const [preview, setPreview] = useState("");
   const [uploadLoading, setUploadLoading] = useState(false);
+  const navigate = useNavigate();
 
   // 1. Define your form.
   const form = useForm<z.infer<typeof formSchema>>({
@@ -52,9 +54,15 @@ const CreateHotel = () => {
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify({ ...values, img: preview}),
+      body: JSON.stringify({ ...values, img: preview }),
     });
-    console.log(response);
+    if (response.ok) {
+      const data = await response.json();
+      console.log(data.data);
+      navigate(`/book/${data.data._id}`);
+    } else {
+      throw new Error("Failed to fetch data");
+    }
   }
 
   const onChange = async (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -76,7 +84,7 @@ const CreateHotel = () => {
   };
 
   return (
-    <div>
+    <div className="p-4 m-4">
       <DialogHeader>
         <DialogTitle>create hotel</DialogTitle>
       </DialogHeader>
@@ -88,9 +96,9 @@ const CreateHotel = () => {
               name="name"
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel>Username</FormLabel>
+                  <FormLabel>hotel name</FormLabel>
                   <FormControl>
-                    <Input placeholder="shadcn" {...field} />
+                    <Input placeholder="name" {...field} />
                   </FormControl>
                   <FormDescription>
                     This is your public display name.
@@ -185,7 +193,7 @@ const CreateHotel = () => {
             />
 
             <Input onChange={onChange} type="file" accept="image/*" />
-            <button> upload</button>
+
             {uploadLoading && <p>Uploading...</p>}
             {preview && <img src={`${preview}`} alt="preview" />}
             <Button type="submit">Submit</Button>
