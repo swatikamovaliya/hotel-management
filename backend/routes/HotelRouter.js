@@ -12,6 +12,6 @@ router.get("/", hotels);
 router.post("/create", createHotels);
 router.get("/:id", getHotelById);
 router.post("/:id/book", bookHotel);
-router.post("/myrooms", myrooms);
+router.post("/myrooms", myrooms);;
 
 module.exports = router;

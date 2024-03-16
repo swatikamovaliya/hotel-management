@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import Navbar from "@/components/Navbar";
 import { Button } from "@/components/ui/button";
 import {
@@ -7,6 +8,8 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+
 import { useEffect, useState } from "react";
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 import CreateHotel from "@/components/CreateHotel";
@@ -15,6 +18,8 @@ import { ScrollArea } from "@/components/ui/scroll-area";
 const Admin = () => {
   const [totalRevenue, setTotalRevenue] = useState(0);
   const [Subscriptions, setSubscriptions] = useState(0);
+  const [allUsers, setAllUsers] = useState([]);
+  const [resentHotel, setResentHotel] = useState([]);
 
   const fetchTotalRevenue = async () => {
     try {
@@ -59,9 +64,52 @@ const Admin = () => {
     }
   };
 
+  const fetchAllUsers = async () => {
+    try {
+      const response = await fetch("http://localhost:3005/admin/getAllUsers", {
+        method: "GET",
+        headers: {
+          "Content-Type": "application/json",
+        },
+      });
+
+      if (response.ok) {
+        const data = await response.json();
+        setAllUsers(data.data);
+      } else {
+        throw new Error("Failed to fetch data");
+      }
+    } catch (error) {
+      console.error(error);
+    }
+  };
+
+  const fetchResentHotels = async () => {
+    try {
+      const response = await fetch("http://localhost:3005/admin/resentHotels", {
+        method: "GET",
+        headers: {
+          "Content-Type": "application/json",
+        },
+      });
+
+      if (response.ok) {
+        const data = await response.json();
+        console.log(data.data);
+        setResentHotel(data.data);
+      } else {
+        throw new Error("Failed to fetch data");
+      }
+    } catch (error) {
+      console.error(error);
+    }
+  };
+
   useEffect(() => {
     fetchTotalRevenue();
     fetchSubscriptions();
+    fetchAllUsers();
+    fetchResentHotels();
   }, []);
 
   return (
@@ -123,13 +171,13 @@ const Admin = () => {
           <CardHeader>
             <CardTitle>
               <div className="justify-between flex">
-                <p>Overview</p>
+                <p>Resent Hotel Books</p>
                 <Dialog>
                   <DialogTrigger asChild>
                     <Button variant="outline">Add hotel</Button>
                   </DialogTrigger>
-                  <DialogContent className="sm:max-w-[425px] p-0">
-                    <ScrollArea className="h-96 rounded-md border p-4">
+                  <DialogContent className="sm:max-w-[700px] p-0">
+                    <ScrollArea className="h-[600px] rounded-md border p-4">
                       <CreateHotel />
                     </ScrollArea>
                   </DialogContent>
@@ -137,13 +185,87 @@ const Admin = () => {
               </div>
             </CardTitle>
           </CardHeader>
-          <CardContent className="pl-2">{/* <Overview /> */}</CardContent>
+          <CardContent className="pl-2">
+            <div className="flex flex-col space-y-2 gap-y-4">
+              {resentHotel.map((hotel: any, index) => (
+                <div key={index} className="flex items-center">
+                  <div className="ml-4 space-y-1">
+                    <p className="text-base font-medium leading-none">
+                      {hotel?.name}
+                    </p>
+                    <p className="text-sm text-muted-foreground">
+                      Book by {hotel.userId} at price {hotel.totalAmount}₹
+                    </p>
+                  </div>
+                  <div className="ml-auto font-medium">
+                    {new Date(hotel.createdAt).toLocaleString("en-US", {
+                      year: "numeric",
+                      month: "2-digit",
+                      day: "2-digit",
+                      hour: "2-digit",
+                      minute: "2-digit",
+                      second: "2-digit",
+                      hour12: false, // Use 24-hour clock
+                    })}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </CardContent>
         </Card>
         <Card className="col-span-3">
           <CardHeader>
-            <CardTitle>Recent Sales</CardTitle>
+            <CardTitle>All users</CardTitle>
             <CardDescription>You made 265 sales this month.</CardDescription>
           </CardHeader>
+          <CardContent>
+            <div className="flex flex-col space-y-2">
+              <div className="space-y-8">
+                {allUsers.map((user: any) => (
+                  <div key={user.id} className="flex items-center">
+                    <Avatar className="h-9 w-9">
+                      <AvatarImage src={user.imageUrl} alt="Avatar" />
+                      <AvatarFallback>OM</AvatarFallback>
+                    </Avatar>
+                    <div className="ml-4 space-y-1">
+                      <p className="text-sm font-medium leading-none">
+                        {user.username}
+                      </p>
+                      <p className="text-sm text-muted-foreground">
+                        {user.emailAddresses[0].emailAddress}
+                      </p>
+                    </div>
+                    <div className="ml-auto font-medium">
+                      {new Date(user.lastSignInAt).toLocaleString("en-US", {
+                        year: "numeric",
+                        month: "2-digit",
+                        day: "2-digit",
+                        hour: "2-digit",
+                        minute: "2-digit",
+                        second: "2-digit",
+                        hour12: true, // Use 12-hour clock
+                      })}
+                    </div>
+                  </div>
+                ))}
+                {/* <div className="flex items-center">
+                  <Avatar className="h-9 w-9">
+                    <AvatarImage src="/avatars/01.png" alt="Avatar" />
+                    <AvatarFallback>OM</AvatarFallback>
+                  </Avatar>
+                  <div className="ml-4 space-y-1">
+                    <p className="text-sm font-medium leading-none">
+                      Olivia Martin
+                    </p>
+                    <p className="text-sm text-muted-foreground">
+                      olivia.martin@email.com
+                    </p>
+                  </div>
+                  <div className="ml-auto font-medium">+$1,999.00</div>
+                </div> */}
+              </div>
+            </div>
+          </CardContent>
         </Card>
       </div>
     </div>
