@@ -19,7 +19,7 @@ const Contact = () => {
       <section className="flex justify-center items-center h-screen full">
         <div className="mx-4 w-96 grid ">
           <div>
-            <h1 className="text-4xl mb-10 font-bold">Contact information</h1>
+            <h1 className="text-4xl mb-10 font-bold">Contact Information</h1>
             <div className="mt-4">
               <div className="flex  items-center">
                 <MapPin className="text-[#aa8453]" size={16} />
@@ -35,12 +35,12 @@ const Contact = () => {
               </div>
               <div className="flex mt-2 items-center">
                 <Clock className="text-[#aa8453]" size={16} />
-                <p className="ml-2">Mon - Fri: 9:00 - 18:00</p>
+                <p className="ml-2">24/7</p>
               </div>
             </div>
           </div>
           <div className="mt-16">
-            <h1 className="text-4xl mb-10 font-bold">Follow us on:</h1>
+            <h1 className="text-4xl mb-10 font-bold">Follow Us On:</h1>
             <div className="flex gap-2 mt-4 text-[#aa8453]">
               <div className="flex rounded-full border border-[#aa8453] w-12 h-12 justify-center items-center">
                 <Facebook />
@@ -62,7 +62,7 @@ const Contact = () => {
         </div>
         <Card className="py-8 px-4  w-96">
           <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">
-            Write us
+            Write Us
           </h2>
           <form action="#" className="space-y-8">
             <div>
@@ -70,7 +70,7 @@ const Contact = () => {
                 htmlFor="email"
                 className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
               >
-                Your email
+                Your Email
               </label>
               <input
                 type="email"
@@ -100,7 +100,7 @@ const Contact = () => {
                 htmlFor="message"
                 className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400"
               >
-                Your message
+                Your Message
               </label>
               <textarea
                 id="message"
@@ -113,7 +113,7 @@ const Contact = () => {
               type="submit"
               className="py-3 px-5 text-sm font-medium border text-center dark:text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
             >
-              Send message
+              Send Message
             </button>
           </form>
         </Card>

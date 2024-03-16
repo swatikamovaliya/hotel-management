@@ -7,7 +7,7 @@ const About = () => {
 
       <div className="grid place-items-center h-screen ">
         <div>
-          <h1 className="text-4xl">Welcome To CAPPA</h1>
+          <h1 className="text-4xl font-bold">Welcome To CAPPA</h1>
         </div>
 
         <div className="text-[#919191] justify-center items-center flex -mt-52  ">

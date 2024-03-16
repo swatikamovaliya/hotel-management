@@ -59,7 +59,7 @@ const MyRoom = () => {
     <div>
       <Navbar />
       <div className="mt-10 mx-44 ">
-        <h1 className="text-4xl">Your Bookings</h1>
+        <h1 className="text-4xl font-bold">Your Bookings</h1>
         <div>
           {mytooms.map((room: any) => (
             <Card key={room._id} className="border-2 rounded-md p-4 my-4">
