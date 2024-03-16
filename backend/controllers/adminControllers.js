@@ -31,6 +31,17 @@ module.exports = {
       res.status(500).send("Internal Server Error Occured");
     }
   },
+  allSubscriptions: async (req, res) => {
+    let success = false;
+    try {
+      const data = await BookHotel.find({}).sort({ createdAt: -1 });
+      success = true;
+      res.json({ success, data });
+    } catch (error) {
+      console.log(error.message);
+      res.status(500).send("Internal Server Error Occured");
+    }
+  },
   getAllUsers: async (req, res) => {
     let success = false;
     try {
