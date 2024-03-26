@@ -14,11 +14,11 @@ interface Room {
 const Book = () => {
   const [rooms, setRooms] = useState<Room[] | []>([]);
 
-  async function fetchData(url = `${process.env.BACKEND_URL}/hotel`) {
+  async function fetchData(url = `${import.meta.env.VITE_BACKEND_URL}/hotel`) {
     const response = await fetch(url, {});
     return response.json();
   }
-
+  
   useEffect(() => {
     fetchData().then((data) => {
       setRooms(data.data);
@@ -33,8 +33,8 @@ const Book = () => {
           <h1 className="text-3xl">BOOKING HOTEL </h1>
         </div>
         <div>
-          {rooms.map((room) => (
-            <div className="flex gap-10 my-10 border rounded-md overflow-hidden">
+          {rooms.map((room, index) => (
+            <div key={index} className="flex gap-10 my-10 border rounded-md overflow-hidden">
               <div>
                 <img className="w-64" src={room.img} alt="room" />
               </div>

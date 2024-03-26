@@ -16,7 +16,7 @@ const MyRoom = () => {
   const fetchMyRooms = async () => {
     try {
       const userId = user.user?.username; // Replace with the actual user ID
-      const response = await fetch(`${process.env.BACKEND_URL}/hotel/myrooms`, {
+      const response = await fetch(`${import.meta.env.VITE_BACKEND_URL}/hotel/myrooms`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
