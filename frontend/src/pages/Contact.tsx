@@ -23,11 +23,11 @@ const Contact = () => {
             <div className="mt-4">
               <div className="flex  items-center">
                 <MapPin className="text-[#aa8453]" size={16} />
-                <p className="ml-2">1616 Broadway NY, India 394071 India</p>
+                <p className="ml-2">122 vesu surat India 394071</p>
               </div>
               <div className="flex mt-2 items-center">
                 <Phone className="text-[#aa8453]" size={16} />
-                <p className="ml-2">+855 100 4444</p>
+                <p className="ml-2">+85510 04844</p>
               </div>
               <div className="flex mt-2 items-center">
                 <Mail className="text-[#aa8453]" size={16} />

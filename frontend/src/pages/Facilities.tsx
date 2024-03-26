@@ -13,8 +13,7 @@ const Facilities = () => {
           <div>
             <h1 className="text-3xl mb-4 dark:text-white text-black ">SWIMMING POOLS</h1>
             <p className="max-w-96">
-              We have the best equipped swimming pool in the country with an
-              instructor waiting to guide you.Four Seasons Hotel New York Downtown adds its classic architectural profile to the world’s most famous skyline at the crossroads of Tribeca and the Financial District.
+            A luxurious oasis where guests can relax and rejuvenate. With sparkling waters and serene surroundings, our pool offers the perfect retreat from the hustle and bustle. Whether guests want to take a refreshing dip, soak up the sun on lounge chairs, or enjoy poolside refreshments, our pool area provides a tranquil escape. Lifeguards are on duty to ensure safety, while poolside attendants cater to guests' needs, creating a hassle-free experience. Experience relaxation and fun in our inviting swimming pool.
             </p>
           </div>
 
@@ -34,8 +33,7 @@ const Facilities = () => {
           <div className="ml-5">
             <h1 className="text-3xl mb-4 dark:text-white text-black ">GYM</h1>
             <p className="max-w-96">
-            The first 5 Star luxury boutique hotel in Pakistan. Raise your lifestyle with our exceptionally designed endeavor with extraordinary solaces. Own your own Apartment in a 5 Star Boutique Hotel.
- 
+            Featuring state-of-the-art exercise equipment and ample space, our gym provides an ideal environment for workouts. With professional trainers available to offer guidance and support, guests can achieve their fitness goals effectively. Whether guests prefer cardio exercises, strength training, or group fitness classes, our gym facilities offer a comprehensive range of options. We prioritize the health and well-being of our guests, ensuring they have access to top-notch fitness amenities during their stay.
             </p>
           </div>
         </div>
@@ -44,13 +42,7 @@ const Facilities = () => {
           <div>
             <h1 className="text-3xl mb-4 dark:text-white text-black ">RESTURENT</h1>
             <p className="max-w-96">
-              Last fall, San Diego celebrated the opening of Born & Raised, a
-              6.5 million Art Deco extravaganza helmed by CH Projects and twice
-              Michelin-starred executive chef Jason McLeod and designed by Paul
-              Basile and his Basile Studio. But the party was just getting
-              started: this fall sees the opening a second-floor addition to the
-              2100s era building, once a drug store and soda fountain the Little
-              Italy neighborhood.
+            We offer an inviting atmosphere for diners. With a diverse menu crafted by skilled chefs using high-quality ingredients, we ensure a delightful culinary experience. Our attentive staff provides prompt service, catering to the needs of every guest, while our well-stocked bar offers a selection of beverages to complement meals. Whether it's a casual lunch or a special occasion, our restaurant facilities promise an enjoyable dining experience
             </p>
           </div>
 
@@ -70,7 +62,7 @@ const Facilities = () => {
           <div className="ml-5">
             <h1 className="text-3xl mb-4 dark:text-white text-black ">BAR</h1>
             <p className="max-w-96">
-            GAP OF DUNLOE. The Dunloe Hotel & Gardens is a 5 star hotel in Ireland overlooking the famous Gap of Dunloe. The lobby, library tower and bar were designed with warm, dark tones and elegant materials, to create an inviting, cosy atmosphere.
+            We offer a relaxed setting for enjoying drinks with friends or colleagues. Our extensive drink menu features a variety of cocktails, wines, and spirits, curated to satisfy diverse tastes. Experienced bartenders craft expertly mixed drinks, ensuring a memorable drinking experience. Whether it's a casual evening out or a celebratory occasion, our bar facilities provide the perfect backdrop for enjoying quality beverages in a vibrant atmosphere.
  
             </p>
           </div>

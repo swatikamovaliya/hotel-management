@@ -9,8 +9,7 @@ export default function Footer() {
         <div>
           <h2 className="mb-4 text-xl font-bold">About Hotel</h2>
           <p className="mb-4">
-            Welcome to the best five-star deluxe hotel in India. Hotel elementum sesue the aucan vestibulum aliquam
-            justo in sapien rutrum volutpat.
+            Welcome to the best five-star deluxe hotel in India. Our page provides insights into our company's story, values, and mission. Discover who we are and what drives us, offering transparency and building trust with our visitors."
           </p>
           <Button className="bg-[#333333] text-white">
             English <GlobeIcon className="ml-2" />
@@ -23,32 +22,32 @@ export default function Footer() {
               <Link href="#">Home</Link>
             </li>
             <li>
-              <Link href="#">Rooms & Suites</Link>
+              <Link href="#">Rooms</Link>
             </li>
             <li>
               <Link href="#">Restaurant</Link>
             </li>
             <li>
-              <Link href="#">Spa & Wellness</Link>
+              <Link href="#">Facilities</Link>
             </li>
             <li>
-              <Link href="#">About Hotel</Link>
+              <Link href="#">About</Link>
             </li>
             <li>
-              <Link href="#">Contact</Link>
+              <Link href="#">Contact us</Link>
             </li>
           </ul>
         </div>
         <div>
           <h2 className="mb-4 text-xl font-bold">Contact</h2>
           <p className="mb-4">
-            1616 Broadway NY, India 394071
+            122 vesu surat 394071
             <br />
-           India
+           INDIA
           </p>
           <p className="mb-4">
             <PhoneIcon className="mr-2" />
-            855 100 4444
+            85510 04844
           </p>
           <p className="mb-4">
             <MailboxIcon className="mr-2" />

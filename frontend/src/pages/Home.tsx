@@ -48,16 +48,10 @@ const Home = () => {
           </div>
           <div className="text-[#919191]">
             <p className="my-3">
-              Welcome to the best five-star deluxe hotel in New York. Hotel
-              elementum sesue the aucan vestibulum aliquam justo in sapien
-              rutrum volutpat. Donec in quis the pellentesque velit. Donec id
-              velit ac arcu posuere blane.
+              Welcome to the best five-star deluxe hotel in India.comfort meets sophistication. Our rooms offer modern amenities, plush bedding, and elegant decor, ensuring a relaxing stay. Enjoy high-speed internet, flat-screen TVs, and luxurious bathrooms. Our rooms provide a comfortable and inviting atmosphere for your stay. With attentive service and a focus on guest satisfaction,
             </p>
             <p>
-              Hotel ut nisl quam nestibulum ac quam nec odio elementum sceisue
-              the aucan ligula. Orci varius natoque penatibus et magnis dis
-              parturient monte nascete ridiculus mus nellentesque habitant
-              morbine.
+              we strive to make your experience memorable. Relax and unwind in our well-appointed rooms,Our attentive staff is dedicated to making your stay memorable. Experience unparalleled comfort and convenience at our hotel. your home away from home.
             </p>
           </div>
         </div>
@@ -160,8 +154,7 @@ const Home = () => {
                 Pick Up & Drop
               </h3>
               <p className="mt-5 text-base text-gray-800 dark:text-gray-300">
-                We’ll pick up from airport while you comfy on your ride, mus
-                nellenstque habitant.
+              Convenient Pick Up & Drop services provided for seamless travel experience.
               </p>
             </div>
             <div className="text-center">
@@ -170,8 +163,7 @@ const Home = () => {
                 Parking Space
               </h3>
               <p className="mt-5 text-base text-gray-800 dark:text-gray-300">
-                Fusce tincidunt nis ace park norttito sit amet space, mus
-                nellenstque habitant.
+              Ample parking space available for guest's convenience.
               </p>
             </div>
             <div className="text-center">
@@ -180,8 +172,7 @@ const Home = () => {
                 Room Service
               </h3>
               <p className="mt-5 text-base text-gray-800 dark:text-gray-300">
-                Room tincidunt nis ace park norttito sit amet space, mus
-                nellenstque habitant.
+              Efficient room service for prompt and personalized guest assistance.
               </p>
             </div>
             <div className="text-center">
@@ -190,8 +181,7 @@ const Home = () => {
                 Swimming Pool
               </h3>
               <p className="mt-5 text-base text-gray-800 dark:text-gray-300">
-                Swimming pool tincidunt nise ace park norttito sit space, mus
-                nellenstque habitant.
+              Enjoy a refreshing swim in our luxurious swimming pool.
               </p>
             </div>
             <div className="text-center">
@@ -200,8 +190,7 @@ const Home = () => {
                 Fibre Internet
               </h3>
               <p className="mt-5 text-base text-gray-800 dark:text-gray-300">
-                Wifi tincidunt nis ace park norttito sit amet space, mus
-                nellenstque habitant.
+              High-speed fiber internet available for seamless connectivity.
               </p>
             </div>
             <div className="text-center">
@@ -210,8 +199,7 @@ const Home = () => {
                 Breakfast
               </h3>
               <p className="mt-5 text-base text-gray-800 dark:text-gray-300">
-                Eat tincidunt nisa ace park norttito sit amet space, mus
-                nellenstque habitant
+              Start your day with our delicious breakfast options.
               </p>
             </div>
           </div>
