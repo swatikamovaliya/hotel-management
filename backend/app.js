@@ -1,9 +1,8 @@
 const connectToMongo = require("./db");
-const cors = require("cors");
 const express = require("express");
-const Hotel = require("./models/Hotel");
 const HotelRouter = require("./routes/HotelRouter");
 const AdminRouter = require("./routes/AdminRouter");
+const cors = require("cors");
 
 // ** connect to mongoDB server
 try {
@@ -17,7 +16,6 @@ const app = express();
 
 app.use(
   cors({
-    origin: "*",
     credentials: true,
   })
 );
@@ -27,12 +25,8 @@ app.use(express.json());
 app.use("/hotel", HotelRouter);
 app.use("/admin", AdminRouter);
 
-app.get("/", () => {
-  const fetch = async () => {
-    const hotel = await Hotel.find({});
-    console.log(hotel);
-  };
-  fetch();
+app.get("/", (req, res) => {
+  res.json({ success: true, message: "Welcome to Hotel Booking API" });
 });
 
 app.listen(port, () =>
