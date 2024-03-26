@@ -1,5 +1,4 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import Navbar from "@/components/Navbar";
 import { Button } from "@/components/ui/button";
 import {
   Card,
@@ -19,6 +18,8 @@ import {
 } from "@/components/ui/dialog";
 import CreateHotel from "@/components/CreateHotel";
 import { ScrollArea } from "@/components/ui/scroll-area";
+import HotelListAdmin from "@/components/HotelListAdmin";
+import AdminNav from "@/components/AdminNav";
 
 type DateCallback = (date: Date) => string;
 
@@ -160,7 +161,7 @@ const Admin = () => {
 
   return (
     <div className="space-y-4 m-4">
-      <Navbar />
+      <AdminNav />
       <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-2">
         <Card>
           <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
@@ -333,6 +334,7 @@ const Admin = () => {
           </CardContent>
         </Card>
       </div>
+      <HotelListAdmin />
     </div>
   );
 };
