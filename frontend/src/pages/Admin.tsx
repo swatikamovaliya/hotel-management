@@ -33,7 +33,7 @@ const Admin = () => {
   const fetchTotalRevenue = async () => {
     try {
       const response = await fetch(
-        `${process.env.BACKEND_URL}/admin/TotalRevenue`,
+        `${import.meta.env.VITE_BACKEND_URL}/admin/TotalRevenue`,
         {
           method: "GET",
           headers: {
@@ -56,7 +56,7 @@ const Admin = () => {
   const fetchSubscriptions = async () => {
     try {
       const response = await fetch(
-        `${process.env.BACKEND_URL}/admin/Subscriptions`,
+        `${import.meta.env.VITE_BACKEND_URL}/admin/Subscriptions`,
         {
           method: "GET",
           headers: {
@@ -79,7 +79,7 @@ const Admin = () => {
   const fetchAllUsers = async () => {
     try {
       const response = await fetch(
-        `${process.env.BACKEND_URL}/admin/getAllUsers`,
+        `${import.meta.env.VITE_BACKEND_URL}/admin/getAllUsers`,
         {
           method: "GET",
           headers: {
@@ -102,7 +102,7 @@ const Admin = () => {
   const fetchResentHotels = async () => {
     try {
       const response = await fetch(
-        `${process.env.BACKEND_URL}/admin/resentHotels`,
+        `${import.meta.env.VITE_BACKEND_URL}/admin/resentHotels`,
         {
           method: "GET",
           headers: {
@@ -126,7 +126,7 @@ const Admin = () => {
   const fetchallSubscriptions = async () => {
     try {
       const response = await fetch(
-        `${process.env.BACKEND_URL}/admin/allSubscriptions`,
+        `${import.meta.env.VITE_BACKEND_URL}/admin/allSubscriptions`,
         {
           method: "GET",
           headers: {

@@ -8,7 +8,7 @@ export default function HotelListAdmin() {
   const [data, setData] = useState<(typeof taskSchema)[] | []>([]);
 
   async function fetchData() {
-    const response = await fetch(process.env.BACKEND_URL || "", {});
+    const response = await fetch(import.meta.env.VITE_BACKEND_URL || "", {});
     return response.json();
   }
 

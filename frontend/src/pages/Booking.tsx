@@ -81,7 +81,7 @@ const Booking = () => {
 
     const handleSubmit = async () => {
       const response = await fetch(
-        `${process.env.BACKEND_URL}/hotel/${hotelId}/book`,
+        `${import.meta.env.VITE_BACKEND_URL}/hotel/${hotelId}/book`,
         {
           method: "POST",
           headers: {
@@ -101,7 +101,7 @@ const Booking = () => {
   }
 
   useEffect(() => {
-    async function fetchData(url = `${process.env.BACKEND_URL}/hotel/${hotelId}`) {
+    async function fetchData(url = `${import.meta.env.VITE_BACKEND_URL}/hotel/${hotelId}`) {
       const response = await fetch(url, {});
       return response.json();
     }
