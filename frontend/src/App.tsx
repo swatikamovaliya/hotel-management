@@ -8,6 +8,7 @@ import Admin from "./pages/Admin";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Facilities from "./pages/Facilities";
+import EditHotel from "./pages/EditHotel";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
             <Route path="/book/:hotelId" element={<Booking />} />
             <Route path="/myroom" element={<MyRoom />} />
             <Route path="/admin" element={<Admin />} />
+            <Route path="/admin/:hotelId/edit" element={<EditHotel />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/facilities" element={<Facilities />} />

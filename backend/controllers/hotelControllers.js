@@ -105,4 +105,18 @@ module.exports = {
       res.status(500).send("Internal Server Error Occured");
     }
   },
+  DeleteHotel: async (req, res) => {
+    let success = false;
+    const { id } = req.params;
+
+    try {
+      const data = await Hotel.findByIdAndDelete(id);
+
+      success = true;
+      res.json({ success, data });
+    } catch (error) {
+      console.log(error.message);
+      res.status(500).send("Internal Server Error Occured");
+    }
+  },
 };
