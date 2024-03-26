@@ -32,12 +32,15 @@ const Admin = () => {
 
   const fetchTotalRevenue = async () => {
     try {
-      const response = await fetch("http://localhost:3005/admin/TotalRevenue", {
-        method: "GET",
-        headers: {
-          "Content-Type": "application/json",
-        },
-      });
+      const response = await fetch(
+        `${process.env.BACKEND_URL}/admin/TotalRevenue`,
+        {
+          method: "GET",
+          headers: {
+            "Content-Type": "application/json",
+          },
+        }
+      );
 
       if (response.ok) {
         const data = await response.json();
@@ -53,7 +56,7 @@ const Admin = () => {
   const fetchSubscriptions = async () => {
     try {
       const response = await fetch(
-        "http://localhost:3005/admin/Subscriptions",
+        `${process.env.BACKEND_URL}/admin/Subscriptions`,
         {
           method: "GET",
           headers: {
@@ -75,12 +78,15 @@ const Admin = () => {
 
   const fetchAllUsers = async () => {
     try {
-      const response = await fetch("http://localhost:3005/admin/getAllUsers", {
-        method: "GET",
-        headers: {
-          "Content-Type": "application/json",
-        },
-      });
+      const response = await fetch(
+        `${process.env.BACKEND_URL}/admin/getAllUsers`,
+        {
+          method: "GET",
+          headers: {
+            "Content-Type": "application/json",
+          },
+        }
+      );
 
       if (response.ok) {
         const data = await response.json();
@@ -95,12 +101,15 @@ const Admin = () => {
 
   const fetchResentHotels = async () => {
     try {
-      const response = await fetch("http://localhost:3005/admin/resentHotels", {
-        method: "GET",
-        headers: {
-          "Content-Type": "application/json",
-        },
-      });
+      const response = await fetch(
+        `${process.env.BACKEND_URL}/admin/resentHotels`,
+        {
+          method: "GET",
+          headers: {
+            "Content-Type": "application/json",
+          },
+        }
+      );
 
       if (response.ok) {
         const data = await response.json();
@@ -117,7 +126,7 @@ const Admin = () => {
   const fetchallSubscriptions = async () => {
     try {
       const response = await fetch(
-        "http://localhost:3005/admin/allSubscriptions",
+        `${process.env.BACKEND_URL}/admin/allSubscriptions`,
         {
           method: "GET",
           headers: {

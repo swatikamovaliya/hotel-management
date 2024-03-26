@@ -49,7 +49,7 @@ const CreateHotel = () => {
   // 2. Define a submit handler.
   async function onSubmit(values: z.infer<typeof formSchema>) {
     console.log(values);
-    const response = await fetch("http://localhost:3005/hotel/create", {
+    const response = await fetch(`${process.env.BACKEND_URL}/hotel/create`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

@@ -14,7 +14,7 @@ interface Room {
 const Book = () => {
   const [rooms, setRooms] = useState<Room[] | []>([]);
 
-  async function fetchData(url = "http://localhost:3005/hotel") {
+  async function fetchData(url = `${process.env.BACKEND_URL}/hotel`) {
     const response = await fetch(url, {});
     return response.json();
   }

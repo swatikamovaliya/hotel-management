@@ -7,8 +7,8 @@ import { taskSchema } from "../data/schema";
 export default function HotelListAdmin() {
   const [data, setData] = useState<(typeof taskSchema)[] | []>([]);
 
-  async function fetchData(url = "http://localhost:3005/hotel") {
-    const response = await fetch(url, {});
+  async function fetchData() {
+    const response = await fetch(process.env.BACKEND_URL || "", {});
     return response.json();
   }
 

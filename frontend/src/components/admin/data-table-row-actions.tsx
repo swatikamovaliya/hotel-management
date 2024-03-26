@@ -35,7 +35,7 @@ export function DataTableRowActions<TData>({
 
   const handelDeleteHotel = async ({ _id }: { _id: string }) => {
     try {
-      await fetch(`http://localhost:3005/hotel/${_id}`, {
+      await fetch(`${process.env.BACKEND_URL}/hotel/${_id}`, {
         method: "DELETE",
       }).then((res) => {
         if (res.ok) {
