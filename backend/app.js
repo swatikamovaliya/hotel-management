@@ -16,6 +16,7 @@ const app = express();
 
 app.use(
   cors({
+    // origin: ["http://localhost:3000", "https://hotel-management-frontend-one.vercel.app"],
     credentials: true,
   })
 );
