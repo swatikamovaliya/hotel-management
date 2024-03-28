@@ -119,4 +119,29 @@ module.exports = {
       res.status(500).send("Internal Server Error Occured");
     }
   },
+  editHotel: async (req, res) => {
+    let success = false;
+    const { id } = req.params;
+    const { name, rating, charges, img, description, city, country, phone } =
+      req.body;
+
+    try {
+      const data = await Hotel.findByIdAndUpdate(id, {
+        name,
+        rating,
+        charges,
+        img,
+        description,
+        city,
+        country,
+        phone,
+      });
+
+      success = true;
+      res.json({ success, data });
+    } catch (error) {
+      console.log(error.message);
+      res.status(500).send("Internal Server Error Occured");
+    }
+  },
 };

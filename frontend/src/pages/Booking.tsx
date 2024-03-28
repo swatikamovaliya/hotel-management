@@ -22,6 +22,7 @@ import { addDays } from "date-fns";
 import { DateRange } from "react-day-picker";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { toast } from "sonner";
+import { Room } from "@/types";
 
 const formSchema = z.object({
   firstName: z.string().min(2).max(50),
@@ -35,13 +36,6 @@ const formSchema = z.object({
   }),
 });
 
-interface Room {
-  name: string;
-  img: string;
-  description: string;
-  charges: number;
-  _id: string;
-}
 
 const Booking = () => {
   const [room, setRoom] = useState<Room | null>(null);
